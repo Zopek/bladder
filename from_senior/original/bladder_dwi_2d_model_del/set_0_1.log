@@ -1,0 +1,1932 @@
+Start training resnet_conv1x1_avgpool
+Epoch 0, Phase train, Loss=0.5716, Acc=0.7050, AUC=0.7770, TPR=0.7063, TNR=0.7037, J=0.4100, Precision=0.7044, F1=0.7053, ConfusionMatrix=
+[[2838 1195]
+ [1184 2847]]
+Epoch 0, Phase val, Loss=0.5546, Acc=0.7586, AUC=0.8280, TPR=0.7510, TNR=0.7600, J=0.5111, Precision=0.3701, F1=0.4959, ConfusionMatrix=
+[[1951  616]
+ [ 120  362]]
+New Best AUC=0.8280
+Epoch complete in 51.97
+
+Epoch 1, Phase train, Loss=0.5021, Acc=0.7552, AUC=0.8372, TPR=0.7444, TNR=0.7661, J=0.5105, Precision=0.7625, F1=0.7534, ConfusionMatrix=
+[[3075  939]
+ [1035 3015]]
+Epoch 1, Phase val, Loss=0.5224, Acc=0.7520, AUC=0.8289, TPR=0.7573, TNR=0.7511, J=0.5083, Precision=0.3635, F1=0.4913, ConfusionMatrix=
+[[1928  639]
+ [ 117  365]]
+New Best AUC=0.8289
+Epoch complete in 44.48
+
+Epoch 2, Phase train, Loss=0.4758, Acc=0.7784, AUC=0.8571, TPR=0.7722, TNR=0.7847, J=0.5568, Precision=0.7832, F1=0.7777, ConfusionMatrix=
+[[3152  865]
+ [ 922 3125]]
+Epoch 2, Phase val, Loss=0.3830, Acc=0.8485, AUC=0.8229, TPR=0.5747, TNR=0.8999, J=0.4746, Precision=0.5187, F1=0.5453, ConfusionMatrix=
+[[2310  257]
+ [ 205  277]]
+Epoch complete in 40.94
+
+Epoch 3, Phase train, Loss=0.4051, Acc=0.8214, AUC=0.8979, TPR=0.8324, TNR=0.8102, J=0.6426, Precision=0.8175, F1=0.8249, ConfusionMatrix=
+[[3232  757]
+ [ 683 3392]]
+Epoch 3, Phase val, Loss=0.4613, Acc=0.7953, AUC=0.8004, TPR=0.6037, TNR=0.8313, J=0.4351, Precision=0.4019, F1=0.4826, ConfusionMatrix=
+[[2134  433]
+ [ 191  291]]
+Epoch complete in 40.01
+
+Epoch 4, Phase train, Loss=0.4012, Acc=0.8228, AUC=0.9018, TPR=0.8281, TNR=0.8175, J=0.6456, Precision=0.8201, F1=0.8241, ConfusionMatrix=
+[[3288  734]
+ [ 695 3347]]
+Epoch 4, Phase val, Loss=0.5951, Acc=0.7278, AUC=0.7985, TPR=0.7282, TNR=0.7277, J=0.4559, Precision=0.3343, F1=0.4582, ConfusionMatrix=
+[[1868  699]
+ [ 131  351]]
+Epoch complete in 41.54
+
+Epoch 5, Phase train, Loss=0.3492, Acc=0.8495, AUC=0.9243, TPR=0.8662, TNR=0.8329, J=0.6991, Precision=0.8369, F1=0.8513, ConfusionMatrix=
+[[3375  677]
+ [ 537 3475]]
+Epoch 5, Phase val, Loss=0.7313, Acc=0.7183, AUC=0.8162, TPR=0.7635, TNR=0.7098, J=0.4733, Precision=0.3306, F1=0.4614, ConfusionMatrix=
+[[1822  745]
+ [ 114  368]]
+Epoch complete in 40.49
+
+Epoch 6, Phase train, Loss=0.3155, Acc=0.8736, AUC=0.9383, TPR=0.8915, TNR=0.8556, J=0.7471, Precision=0.8615, F1=0.8762, ConfusionMatrix=
+[[3438  580]
+ [ 439 3607]]
+Epoch 6, Phase val, Loss=0.5176, Acc=0.8035, AUC=0.8203, TPR=0.6660, TNR=0.8294, J=0.4953, Precision=0.4229, F1=0.5173, ConfusionMatrix=
+[[2129  438]
+ [ 161  321]]
+Epoch complete in 40.26
+
+Epoch 7, Phase train, Loss=0.2871, Acc=0.8776, AUC=0.9484, TPR=0.8931, TNR=0.8618, J=0.7549, Precision=0.8686, F1=0.8806, ConfusionMatrix=
+[[3436  551]
+ [ 436 3641]]
+Epoch 7, Phase val, Loss=0.5195, Acc=0.8304, AUC=0.8236, TPR=0.6473, TNR=0.8648, J=0.5121, Precision=0.4734, F1=0.5469, ConfusionMatrix=
+[[2220  347]
+ [ 170  312]]
+Epoch complete in 39.79
+
+Epoch 8, Phase train, Loss=0.2780, Acc=0.8831, AUC=0.9522, TPR=0.8937, TNR=0.8727, J=0.7664, Precision=0.8729, F1=0.8832, ConfusionMatrix=
+[[3557  519]
+ [ 424 3564]]
+Epoch 8, Phase val, Loss=0.4765, Acc=0.8199, AUC=0.7790, TPR=0.5124, TNR=0.8777, J=0.3901, Precision=0.4403, F1=0.4736, ConfusionMatrix=
+[[2253  314]
+ [ 235  247]]
+Epoch complete in 39.02
+
+Epoch 9, Phase train, Loss=0.2713, Acc=0.8911, AUC=0.9550, TPR=0.9001, TNR=0.8820, J=0.7821, Precision=0.8853, F1=0.8927, ConfusionMatrix=
+[[3535  473]
+ [ 405 3651]]
+Epoch 9, Phase val, Loss=0.4718, Acc=0.8436, AUC=0.7929, TPR=0.4834, TNR=0.9112, J=0.3946, Precision=0.5054, F1=0.4942, ConfusionMatrix=
+[[2339  228]
+ [ 249  233]]
+Epoch complete in 39.25
+
+Epoch 10, Phase train, Loss=0.2473, Acc=0.8984, AUC=0.9624, TPR=0.9093, TNR=0.8876, J=0.7969, Precision=0.8897, F1=0.8994, ConfusionMatrix=
+[[3584  454]
+ [ 365 3661]]
+Epoch 10, Phase val, Loss=0.5373, Acc=0.8016, AUC=0.7993, TPR=0.5975, TNR=0.8399, J=0.4374, Precision=0.4120, F1=0.4877, ConfusionMatrix=
+[[2156  411]
+ [ 194  288]]
+Epoch complete in 40.03
+
+Epoch 11, Phase train, Loss=0.2104, Acc=0.9189, AUC=0.9720, TPR=0.9321, TNR=0.9057, J=0.8378, Precision=0.9082, F1=0.9200, ConfusionMatrix=
+[[3650  380]
+ [ 274 3760]]
+Epoch 11, Phase val, Loss=0.5162, Acc=0.8550, AUC=0.8064, TPR=0.4544, TNR=0.9303, J=0.3846, Precision=0.5503, F1=0.4977, ConfusionMatrix=
+[[2388  179]
+ [ 263  219]]
+Epoch complete in 39.19
+
+Epoch 12, Phase train, Loss=0.1970, Acc=0.9205, AUC=0.9757, TPR=0.9332, TNR=0.9078, J=0.8410, Precision=0.9104, F1=0.9217, ConfusionMatrix=
+[[3652  371]
+ [ 270 3771]]
+Epoch 12, Phase val, Loss=0.6006, Acc=0.7894, AUC=0.7725, TPR=0.5498, TNR=0.8344, J=0.3842, Precision=0.3841, F1=0.4522, ConfusionMatrix=
+[[2142  425]
+ [ 217  265]]
+Epoch complete in 39.36
+
+Epoch 13, Phase train, Loss=0.1779, Acc=0.9320, AUC=0.9796, TPR=0.9407, TNR=0.9233, J=0.8639, Precision=0.9257, F1=0.9331, ConfusionMatrix=
+[[3693  307]
+ [ 241 3823]]
+Epoch 13, Phase val, Loss=0.8711, Acc=0.7133, AUC=0.7786, TPR=0.7199, TNR=0.7121, J=0.4320, Precision=0.3195, F1=0.4426, ConfusionMatrix=
+[[1828  739]
+ [ 135  347]]
+Epoch complete in 38.33
+
+Epoch 14, Phase train, Loss=0.2008, Acc=0.9245, AUC=0.9752, TPR=0.9351, TNR=0.9138, J=0.8489, Precision=0.9163, F1=0.9256, ConfusionMatrix=
+[[3666  346]
+ [ 263 3789]]
+Epoch 14, Phase val, Loss=0.5291, Acc=0.8547, AUC=0.8057, TPR=0.5041, TNR=0.9205, J=0.4247, Precision=0.5436, F1=0.5231, ConfusionMatrix=
+[[2363  204]
+ [ 239  243]]
+Epoch complete in 42.27
+
+Epoch 15, Phase train, Loss=0.1555, Acc=0.9399, AUC=0.9838, TPR=0.9485, TNR=0.9313, J=0.8798, Precision=0.9320, F1=0.9401, ConfusionMatrix=
+[[3770  278]
+ [ 207 3809]]
+Epoch 15, Phase val, Loss=0.6465, Acc=0.8131, AUC=0.7804, TPR=0.5249, TNR=0.8672, J=0.3921, Precision=0.4259, F1=0.4703, ConfusionMatrix=
+[[2226  341]
+ [ 229  253]]
+Epoch complete in 73.44
+
+Epoch 16, Phase train, Loss=0.1528, Acc=0.9401, AUC=0.9851, TPR=0.9457, TNR=0.9347, J=0.8804, Precision=0.9327, F1=0.9392, ConfusionMatrix=
+[[3851  269]
+ [ 214 3730]]
+Epoch 16, Phase val, Loss=0.9475, Acc=0.7074, AUC=0.7858, TPR=0.7448, TNR=0.7004, J=0.4452, Precision=0.3183, F1=0.4460, ConfusionMatrix=
+[[1798  769]
+ [ 123  359]]
+Epoch complete in 45.99
+
+Epoch 17, Phase train, Loss=0.1538, Acc=0.9433, AUC=0.9845, TPR=0.9535, TNR=0.9328, J=0.8863, Precision=0.9364, F1=0.9448, ConfusionMatrix=
+[[3693  266]
+ [ 191 3914]]
+Epoch 17, Phase val, Loss=0.6139, Acc=0.8504, AUC=0.7999, TPR=0.4440, TNR=0.9268, J=0.3707, Precision=0.5323, F1=0.4842, ConfusionMatrix=
+[[2379  188]
+ [ 268  214]]
+Epoch complete in 43.67
+
+Epoch 18, Phase train, Loss=0.1387, Acc=0.9473, AUC=0.9868, TPR=0.9558, TNR=0.9387, J=0.8945, Precision=0.9403, F1=0.9480, ConfusionMatrix=
+[[3766  246]
+ [ 179 3873]]
+Epoch 18, Phase val, Loss=0.6898, Acc=0.7871, AUC=0.7873, TPR=0.6079, TNR=0.8208, J=0.4287, Precision=0.3891, F1=0.4745, ConfusionMatrix=
+[[2107  460]
+ [ 189  293]]
+Epoch complete in 40.34
+
+Epoch 19, Phase train, Loss=0.1277, Acc=0.9519, AUC=0.9889, TPR=0.9604, TNR=0.9431, J=0.9035, Precision=0.9456, F1=0.9530, ConfusionMatrix=
+[[3746  226]
+ [ 162 3930]]
+Epoch 19, Phase val, Loss=0.5903, Acc=0.8380, AUC=0.7804, TPR=0.3776, TNR=0.9244, J=0.3020, Precision=0.4840, F1=0.4242, ConfusionMatrix=
+[[2373  194]
+ [ 300  182]]
+Epoch complete in 61.02
+
+Epoch 20, Phase train, Loss=0.1161, Acc=0.9583, AUC=0.9910, TPR=0.9643, TNR=0.9526, J=0.9169, Precision=0.9513, F1=0.9577, ConfusionMatrix=
+[[3923  195]
+ [ 141 3805]]
+Epoch 20, Phase val, Loss=0.7114, Acc=0.8406, AUC=0.7812, TPR=0.4212, TNR=0.9194, J=0.3405, Precision=0.4951, F1=0.4552, ConfusionMatrix=
+[[2360  207]
+ [ 279  203]]
+Epoch complete in 38.41
+
+Epoch 21, Phase train, Loss=0.1005, Acc=0.9647, AUC=0.9928, TPR=0.9708, TNR=0.9588, J=0.9295, Precision=0.9579, F1=0.9643, ConfusionMatrix=
+[[3929  169]
+ [ 116 3850]]
+Epoch 21, Phase val, Loss=0.7793, Acc=0.8583, AUC=0.7903, TPR=0.4129, TNR=0.9420, J=0.3548, Precision=0.5718, F1=0.4795, ConfusionMatrix=
+[[2418  149]
+ [ 283  199]]
+Epoch complete in 48.41
+
+Epoch 22, Phase train, Loss=0.1087, Acc=0.9611, AUC=0.9916, TPR=0.9686, TNR=0.9538, J=0.9224, Precision=0.9527, F1=0.9606, ConfusionMatrix=
+[[3920  190]
+ [ 124 3830]]
+Epoch 22, Phase val, Loss=0.6515, Acc=0.8498, AUC=0.8130, TPR=0.5539, TNR=0.9053, J=0.4593, Precision=0.5235, F1=0.5383, ConfusionMatrix=
+[[2324  243]
+ [ 215  267]]
+Epoch complete in 55.52
+
+Epoch 23, Phase train, Loss=0.0944, Acc=0.9666, AUC=0.9934, TPR=0.9727, TNR=0.9607, J=0.9334, Precision=0.9604, F1=0.9665, ConfusionMatrix=
+[[3913  160]
+ [ 109 3882]]
+Epoch 23, Phase val, Loss=0.7239, Acc=0.8308, AUC=0.7838, TPR=0.5539, TNR=0.8827, J=0.4367, Precision=0.4701, F1=0.5086, ConfusionMatrix=
+[[2266  301]
+ [ 215  267]]
+Epoch complete in 127.75
+
+Epoch 24, Phase train, Loss=0.0961, Acc=0.9675, AUC=0.9931, TPR=0.9731, TNR=0.9618, J=0.9350, Precision=0.9627, F1=0.9679, ConfusionMatrix=
+[[3856  153]
+ [ 109 3946]]
+Epoch 24, Phase val, Loss=0.7269, Acc=0.8180, AUC=0.8066, TPR=0.6120, TNR=0.8566, J=0.4687, Precision=0.4449, F1=0.5153, ConfusionMatrix=
+[[2199  368]
+ [ 187  295]]
+Epoch complete in 42.64
+
+Epoch 25, Phase train, Loss=0.0898, Acc=0.9692, AUC=0.9943, TPR=0.9762, TNR=0.9622, J=0.9385, Precision=0.9629, F1=0.9695, ConfusionMatrix=
+[[3872  152]
+ [  96 3944]]
+Epoch 25, Phase val, Loss=0.7051, Acc=0.8557, AUC=0.7996, TPR=0.4855, TNR=0.9252, J=0.4107, Precision=0.5493, F1=0.5154, ConfusionMatrix=
+[[2375  192]
+ [ 248  234]]
+Epoch complete in 41.35
+
+Epoch 26, Phase train, Loss=0.0738, Acc=0.9747, AUC=0.9959, TPR=0.9780, TNR=0.9713, J=0.9494, Precision=0.9718, F1=0.9749, ConfusionMatrix=
+[[3897  115]
+ [  89 3963]]
+Epoch 26, Phase val, Loss=0.6900, Acc=0.8357, AUC=0.7880, TPR=0.5000, TNR=0.8987, J=0.3987, Precision=0.4810, F1=0.4903, ConfusionMatrix=
+[[2307  260]
+ [ 241  241]]
+Epoch complete in 40.76
+
+Epoch 27, Phase train, Loss=0.0698, Acc=0.9764, AUC=0.9967, TPR=0.9807, TNR=0.9722, J=0.9529, Precision=0.9725, F1=0.9766, ConfusionMatrix=
+[[3910  112]
+ [  78 3964]]
+Epoch 27, Phase val, Loss=0.7936, Acc=0.8301, AUC=0.7817, TPR=0.5041, TNR=0.8913, J=0.3955, Precision=0.4655, F1=0.4841, ConfusionMatrix=
+[[2288  279]
+ [ 239  243]]
+Epoch complete in 357.94
+
+Epoch 28, Phase train, Loss=0.0767, Acc=0.9738, AUC=0.9956, TPR=0.9773, TNR=0.9705, J=0.9478, Precision=0.9697, F1=0.9735, ConfusionMatrix=
+[[3975  121]
+ [  90 3878]]
+Epoch 28, Phase val, Loss=0.7222, Acc=0.8514, AUC=0.7754, TPR=0.4025, TNR=0.9357, J=0.3382, Precision=0.5404, F1=0.4614, ConfusionMatrix=
+[[2402  165]
+ [ 288  194]]
+Epoch complete in 47.52
+
+Epoch 29, Phase train, Loss=0.0797, Acc=0.9705, AUC=0.9955, TPR=0.9741, TNR=0.9669, J=0.9409, Precision=0.9674, F1=0.9707, ConfusionMatrix=
+[[3880  133]
+ [ 105 3946]]
+Epoch 29, Phase val, Loss=0.7801, Acc=0.8524, AUC=0.7852, TPR=0.4232, TNR=0.9330, J=0.3562, Precision=0.5426, F1=0.4755, ConfusionMatrix=
+[[2395  172]
+ [ 278  204]]
+Epoch complete in 41.42
+
+Epoch 30, Phase train, Loss=0.0779, Acc=0.9737, AUC=0.9954, TPR=0.9771, TNR=0.9703, J=0.9474, Precision=0.9703, F1=0.9737, ConfusionMatrix=
+[[3926  120]
+ [  92 3926]]
+Epoch 30, Phase val, Loss=0.7752, Acc=0.8019, AUC=0.7828, TPR=0.5394, TNR=0.8512, J=0.3906, Precision=0.4050, F1=0.4626, ConfusionMatrix=
+[[2185  382]
+ [ 222  260]]
+Epoch complete in 39.21
+
+Epoch 31, Phase train, Loss=0.0652, Acc=0.9779, AUC=0.9965, TPR=0.9828, TNR=0.9730, J=0.9559, Precision=0.9732, F1=0.9780, ConfusionMatrix=
+[[3935  109]
+ [  69 3951]]
+Epoch 31, Phase val, Loss=0.7642, Acc=0.8577, AUC=0.7797, TPR=0.3714, TNR=0.9490, J=0.3203, Precision=0.5774, F1=0.4520, ConfusionMatrix=
+[[2436  131]
+ [ 303  179]]
+Epoch complete in 39.53
+
+Epoch 32, Phase train, Loss=0.0672, Acc=0.9785, AUC=0.9965, TPR=0.9824, TNR=0.9749, J=0.9573, Precision=0.9737, F1=0.9780, ConfusionMatrix=
+[[4043  104]
+ [  69 3848]]
+Epoch 32, Phase val, Loss=0.8127, Acc=0.8117, AUC=0.7615, TPR=0.4938, TNR=0.8714, J=0.3652, Precision=0.4190, F1=0.4533, ConfusionMatrix=
+[[2237  330]
+ [ 244  238]]
+Epoch complete in 44.93
+
+Epoch 33, Phase train, Loss=0.0677, Acc=0.9782, AUC=0.9965, TPR=0.9825, TNR=0.9737, J=0.9563, Precision=0.9744, F1=0.9785, ConfusionMatrix=
+[[3892  105]
+ [  71 3996]]
+Epoch 33, Phase val, Loss=0.7862, Acc=0.8291, AUC=0.7535, TPR=0.4025, TNR=0.9092, J=0.3117, Precision=0.4543, F1=0.4268, ConfusionMatrix=
+[[2334  233]
+ [ 288  194]]
+Epoch complete in 40.20
+
+Epoch 34, Phase train, Loss=0.0619, Acc=0.9816, AUC=0.9968, TPR=0.9823, TNR=0.9810, J=0.9633, Precision=0.9809, F1=0.9816, ConfusionMatrix=
+[[3972   77]
+ [  71 3944]]
+Epoch 34, Phase val, Loss=0.7508, Acc=0.8298, AUC=0.8023, TPR=0.5353, TNR=0.8851, J=0.4203, Precision=0.4665, F1=0.4986, ConfusionMatrix=
+[[2272  295]
+ [ 224  258]]
+Epoch complete in 38.60
+
+Epoch 35, Phase train, Loss=0.0614, Acc=0.9799, AUC=0.9970, TPR=0.9855, TNR=0.9742, J=0.9597, Precision=0.9750, F1=0.9802, ConfusionMatrix=
+[[3883  103]
+ [  59 4019]]
+Epoch 35, Phase val, Loss=0.8049, Acc=0.8422, AUC=0.7824, TPR=0.4585, TNR=0.9143, J=0.3728, Precision=0.5011, F1=0.4789, ConfusionMatrix=
+[[2347  220]
+ [ 261  221]]
+Epoch complete in 39.54
+
+Epoch 36, Phase train, Loss=0.0467, Acc=0.9847, AUC=0.9983, TPR=0.9880, TNR=0.9816, J=0.9696, Precision=0.9813, F1=0.9846, ConfusionMatrix=
+[[3997   75]
+ [  48 3944]]
+Epoch 36, Phase val, Loss=0.8079, Acc=0.8481, AUC=0.7808, TPR=0.4295, TNR=0.9268, J=0.3562, Precision=0.5241, F1=0.4721, ConfusionMatrix=
+[[2379  188]
+ [ 275  207]]
+Epoch complete in 38.77
+
+Epoch 37, Phase train, Loss=0.0543, Acc=0.9829, AUC=0.9975, TPR=0.9854, TNR=0.9804, J=0.9658, Precision=0.9805, F1=0.9830, ConfusionMatrix=
+[[3947   79]
+ [  59 3979]]
+Epoch 37, Phase val, Loss=0.7906, Acc=0.8396, AUC=0.7873, TPR=0.5332, TNR=0.8972, J=0.4304, Precision=0.4933, F1=0.5125, ConfusionMatrix=
+[[2303  264]
+ [ 225  257]]
+Epoch complete in 38.46
+
+Epoch 38, Phase train, Loss=0.0464, Acc=0.9860, AUC=0.9980, TPR=0.9887, TNR=0.9832, J=0.9719, Precision=0.9837, F1=0.9862, ConfusionMatrix=
+[[3917   67]
+ [  46 4034]]
+Epoch 38, Phase val, Loss=0.8355, Acc=0.8472, AUC=0.7869, TPR=0.4274, TNR=0.9260, J=0.3534, Precision=0.5202, F1=0.4692, ConfusionMatrix=
+[[2377  190]
+ [ 276  206]]
+Epoch complete in 39.50
+
+Epoch 39, Phase train, Loss=0.0423, Acc=0.9871, AUC=0.9985, TPR=0.9901, TNR=0.9841, J=0.9742, Precision=0.9843, F1=0.9872, ConfusionMatrix=
+[[3950   64]
+ [  40 4010]]
+Epoch 39, Phase val, Loss=0.9119, Acc=0.8314, AUC=0.7848, TPR=0.5249, TNR=0.8890, J=0.4139, Precision=0.4703, F1=0.4961, ConfusionMatrix=
+[[2282  285]
+ [ 229  253]]
+Epoch complete in 45.85
+
+Epoch 40, Phase train, Loss=0.0370, Acc=0.9903, AUC=0.9984, TPR=0.9918, TNR=0.9889, J=0.9807, Precision=0.9888, F1=0.9903, ConfusionMatrix=
+[[3999   45]
+ [  33 3987]]
+Epoch 40, Phase val, Loss=0.8139, Acc=0.8544, AUC=0.7902, TPR=0.4544, TNR=0.9295, J=0.3838, Precision=0.5475, F1=0.4966, ConfusionMatrix=
+[[2386  181]
+ [ 263  219]]
+Epoch complete in 46.52
+
+Epoch 41, Phase train, Loss=0.0264, Acc=0.9937, AUC=0.9990, TPR=0.9968, TNR=0.9906, J=0.9873, Precision=0.9906, F1=0.9937, ConfusionMatrix=
+[[3991   38]
+ [  13 4022]]
+Epoch 41, Phase val, Loss=0.8451, Acc=0.8573, AUC=0.7896, TPR=0.3755, TNR=0.9478, J=0.3233, Precision=0.5746, F1=0.4542, ConfusionMatrix=
+[[2433  134]
+ [ 301  181]]
+Epoch complete in 48.57
+
+Epoch 42, Phase train, Loss=0.0203, Acc=0.9945, AUC=0.9994, TPR=0.9977, TNR=0.9916, J=0.9893, Precision=0.9910, F1=0.9944, ConfusionMatrix=
+[[4148   35]
+ [   9 3872]]
+Epoch 42, Phase val, Loss=0.8480, Acc=0.8573, AUC=0.7871, TPR=0.3983, TNR=0.9435, J=0.3419, Precision=0.5697, F1=0.4689, ConfusionMatrix=
+[[2422  145]
+ [ 290  192]]
+Epoch complete in 48.58
+
+Epoch 43, Phase train, Loss=0.0174, Acc=0.9949, AUC=0.9996, TPR=0.9956, TNR=0.9943, J=0.9898, Precision=0.9943, F1=0.9949, ConfusionMatrix=
+[[3991   23]
+ [  18 4032]]
+Epoch 43, Phase val, Loss=0.8501, Acc=0.8583, AUC=0.7842, TPR=0.3714, TNR=0.9497, J=0.3211, Precision=0.5812, F1=0.4532, ConfusionMatrix=
+[[2438  129]
+ [ 303  179]]
+Epoch complete in 45.05
+
+Epoch 44, Phase train, Loss=0.0166, Acc=0.9963, AUC=0.9994, TPR=0.9983, TNR=0.9943, J=0.9926, Precision=0.9943, F1=0.9963, ConfusionMatrix=
+[[4037   23]
+ [   7 3997]]
+Epoch 44, Phase val, Loss=0.8415, Acc=0.8524, AUC=0.7744, TPR=0.3444, TNR=0.9478, J=0.2922, Precision=0.5533, F1=0.4246, ConfusionMatrix=
+[[2433  134]
+ [ 316  166]]
+Epoch complete in 45.29
+
+Epoch 45, Phase train, Loss=0.0166, Acc=0.9947, AUC=0.9997, TPR=0.9965, TNR=0.9928, J=0.9894, Precision=0.9928, F1=0.9947, ConfusionMatrix=
+[[4022   29]
+ [  14 3999]]
+Epoch 45, Phase val, Loss=0.8600, Acc=0.8590, AUC=0.7924, TPR=0.4087, TNR=0.9435, J=0.3522, Precision=0.5760, F1=0.4782, ConfusionMatrix=
+[[2422  145]
+ [ 285  197]]
+Epoch complete in 41.30
+
+Epoch 46, Phase train, Loss=0.0205, Acc=0.9943, AUC=0.9995, TPR=0.9966, TNR=0.9919, J=0.9885, Precision=0.9922, F1=0.9944, ConfusionMatrix=
+[[3925   32]
+ [  14 4093]]
+Epoch 46, Phase val, Loss=0.8879, Acc=0.8547, AUC=0.7833, TPR=0.3548, TNR=0.9486, J=0.3033, Precision=0.5644, F1=0.4357, ConfusionMatrix=
+[[2435  132]
+ [ 311  171]]
+Epoch complete in 46.06
+
+Epoch 47, Phase train, Loss=0.0147, Acc=0.9963, AUC=0.9996, TPR=0.9974, TNR=0.9952, J=0.9926, Precision=0.9949, F1=0.9962, ConfusionMatrix=
+[[4131   20]
+ [  10 3903]]
+Epoch 47, Phase val, Loss=0.8835, Acc=0.8560, AUC=0.7947, TPR=0.3963, TNR=0.9423, J=0.3386, Precision=0.5634, F1=0.4653, ConfusionMatrix=
+[[2419  148]
+ [ 291  191]]
+Epoch complete in 42.65
+
+Epoch 48, Phase train, Loss=0.0150, Acc=0.9967, AUC=0.9995, TPR=0.9982, TNR=0.9951, J=0.9933, Precision=0.9950, F1=0.9966, ConfusionMatrix=
+[[4058   20]
+ [   7 3979]]
+Epoch 48, Phase val, Loss=0.8970, Acc=0.8600, AUC=0.7896, TPR=0.3672, TNR=0.9525, J=0.3197, Precision=0.5920, F1=0.4533, ConfusionMatrix=
+[[2445  122]
+ [ 305  177]]
+Epoch complete in 42.98
+
+Epoch 49, Phase train, Loss=0.0156, Acc=0.9959, AUC=0.9996, TPR=0.9980, TNR=0.9938, J=0.9918, Precision=0.9938, F1=0.9959, ConfusionMatrix=
+[[3994   25]
+ [   8 4037]]
+Epoch 49, Phase val, Loss=0.9303, Acc=0.8570, AUC=0.7843, TPR=0.3589, TNR=0.9505, J=0.3094, Precision=0.5767, F1=0.4425, ConfusionMatrix=
+[[2440  127]
+ [ 309  173]]
+Epoch complete in 41.76
+
+Epoch 50, Phase train, Loss=0.0134, Acc=0.9964, AUC=0.9996, TPR=0.9978, TNR=0.9950, J=0.9928, Precision=0.9951, F1=0.9964, ConfusionMatrix=
+[[4012   20]
+ [   9 4023]]
+Epoch 50, Phase val, Loss=0.8673, Acc=0.8547, AUC=0.7896, TPR=0.4295, TNR=0.9346, J=0.3640, Precision=0.5520, F1=0.4831, ConfusionMatrix=
+[[2399  168]
+ [ 275  207]]
+Epoch complete in 40.73
+
+Epoch 51, Phase train, Loss=0.0161, Acc=0.9962, AUC=0.9994, TPR=0.9983, TNR=0.9940, J=0.9923, Precision=0.9941, F1=0.9962, ConfusionMatrix=
+[[3999   24]
+ [   7 4034]]
+Epoch 51, Phase val, Loss=0.9383, Acc=0.8606, AUC=0.7937, TPR=0.3776, TNR=0.9513, J=0.3289, Precision=0.5928, F1=0.4613, ConfusionMatrix=
+[[2442  125]
+ [ 300  182]]
+Epoch complete in 41.33
+
+Epoch 52, Phase train, Loss=0.0121, Acc=0.9962, AUC=0.9997, TPR=0.9975, TNR=0.9948, J=0.9923, Precision=0.9948, F1=0.9962, ConfusionMatrix=
+[[3979   21]
+ [  10 4054]]
+Epoch 52, Phase val, Loss=0.8840, Acc=0.8580, AUC=0.7973, TPR=0.4087, TNR=0.9423, J=0.3511, Precision=0.5710, F1=0.4764, ConfusionMatrix=
+[[2419  148]
+ [ 285  197]]
+Epoch complete in 42.05
+
+Epoch 53, Phase train, Loss=0.0064, Acc=0.9989, AUC=1.0000, TPR=0.9988, TNR=0.9990, J=0.9978, Precision=0.9990, F1=0.9989, ConfusionMatrix=
+[[4036    4]
+ [   5 4019]]
+Epoch 53, Phase val, Loss=0.9399, Acc=0.8600, AUC=0.7949, TPR=0.3963, TNR=0.9470, J=0.3433, Precision=0.5841, F1=0.4722, ConfusionMatrix=
+[[2431  136]
+ [ 291  191]]
+Epoch complete in 45.59
+
+Epoch 54, Phase train, Loss=0.0112, Acc=0.9975, AUC=0.9998, TPR=0.9990, TNR=0.9961, J=0.9951, Precision=0.9960, F1=0.9975, ConfusionMatrix=
+[[4041   16]
+ [   4 4003]]
+Epoch 54, Phase val, Loss=0.9117, Acc=0.8573, AUC=0.7918, TPR=0.4046, TNR=0.9423, J=0.3469, Precision=0.5685, F1=0.4727, ConfusionMatrix=
+[[2419  148]
+ [ 287  195]]
+Epoch complete in 40.85
+
+Epoch 55, Phase train, Loss=0.0121, Acc=0.9960, AUC=0.9998, TPR=0.9970, TNR=0.9951, J=0.9921, Precision=0.9950, F1=0.9960, ConfusionMatrix=
+[[4046   20]
+ [  12 3986]]
+Epoch 55, Phase val, Loss=0.9358, Acc=0.8593, AUC=0.7917, TPR=0.3776, TNR=0.9497, J=0.3273, Precision=0.5852, F1=0.4590, ConfusionMatrix=
+[[2438  129]
+ [ 300  182]]
+Epoch complete in 40.54
+
+Epoch 56, Phase train, Loss=0.0154, Acc=0.9960, AUC=0.9996, TPR=0.9980, TNR=0.9941, J=0.9921, Precision=0.9941, F1=0.9960, ConfusionMatrix=
+[[4010   24]
+ [   8 4022]]
+Epoch 56, Phase val, Loss=0.9432, Acc=0.8600, AUC=0.7905, TPR=0.3548, TNR=0.9548, J=0.3096, Precision=0.5958, F1=0.4447, ConfusionMatrix=
+[[2451  116]
+ [ 311  171]]
+Epoch complete in 41.95
+
+Epoch 57, Phase train, Loss=0.0094, Acc=0.9973, AUC=0.9999, TPR=0.9978, TNR=0.9968, J=0.9945, Precision=0.9968, F1=0.9973, ConfusionMatrix=
+[[4024   13]
+ [   9 4018]]
+Epoch 57, Phase val, Loss=0.9463, Acc=0.8580, AUC=0.7935, TPR=0.3817, TNR=0.9474, J=0.3292, Precision=0.5768, F1=0.4594, ConfusionMatrix=
+[[2432  135]
+ [ 298  184]]
+Epoch complete in 42.33
+
+Epoch 58, Phase train, Loss=0.0125, Acc=0.9968, AUC=0.9997, TPR=0.9985, TNR=0.9950, J=0.9935, Precision=0.9951, F1=0.9968, ConfusionMatrix=
+[[4003   20]
+ [   6 4035]]
+Epoch 58, Phase val, Loss=0.9243, Acc=0.8567, AUC=0.7909, TPR=0.3838, TNR=0.9455, J=0.3293, Precision=0.5692, F1=0.4585, ConfusionMatrix=
+[[2427  140]
+ [ 297  185]]
+Epoch complete in 44.60
+
+Epoch 59, Phase train, Loss=0.0096, Acc=0.9981, AUC=0.9998, TPR=0.9990, TNR=0.9972, J=0.9963, Precision=0.9973, F1=0.9982, ConfusionMatrix=
+[[3986   11]
+ [   4 4063]]
+Epoch 59, Phase val, Loss=0.9344, Acc=0.8521, AUC=0.7888, TPR=0.4066, TNR=0.9357, J=0.3424, Precision=0.5429, F1=0.4650, ConfusionMatrix=
+[[2402  165]
+ [ 286  196]]
+Epoch complete in 42.75
+
+Epoch 60, Phase train, Loss=0.0111, Acc=0.9974, AUC=0.9998, TPR=0.9990, TNR=0.9958, J=0.9948, Precision=0.9958, F1=0.9974, ConfusionMatrix=
+[[4018   17]
+ [   4 4025]]
+Epoch 60, Phase val, Loss=0.9531, Acc=0.8573, AUC=0.7946, TPR=0.3693, TNR=0.9490, J=0.3183, Precision=0.5761, F1=0.4501, ConfusionMatrix=
+[[2436  131]
+ [ 304  178]]
+Epoch complete in 43.27
+
+Epoch 61, Phase train, Loss=0.0126, Acc=0.9964, AUC=0.9998, TPR=0.9975, TNR=0.9953, J=0.9928, Precision=0.9953, F1=0.9964, ConfusionMatrix=
+[[4026   19]
+ [  10 4009]]
+Epoch 61, Phase val, Loss=0.9757, Acc=0.8590, AUC=0.7960, TPR=0.3797, TNR=0.9490, J=0.3286, Precision=0.5828, F1=0.4598, ConfusionMatrix=
+[[2436  131]
+ [ 299  183]]
+Epoch complete in 40.48
+
+Epoch 62, Phase train, Loss=0.0128, Acc=0.9967, AUC=0.9998, TPR=0.9980, TNR=0.9952, J=0.9933, Precision=0.9953, F1=0.9967, ConfusionMatrix=
+[[3978   19]
+ [   8 4059]]
+Epoch 62, Phase val, Loss=0.9767, Acc=0.8596, AUC=0.7921, TPR=0.3734, TNR=0.9509, J=0.3244, Precision=0.5882, F1=0.4569, ConfusionMatrix=
+[[2441  126]
+ [ 302  180]]
+Epoch complete in 41.01
+
+Epoch 63, Phase train, Loss=0.0112, Acc=0.9974, AUC=0.9998, TPR=0.9985, TNR=0.9962, J=0.9948, Precision=0.9963, F1=0.9974, ConfusionMatrix=
+[[3976   15]
+ [   6 4067]]
+Epoch 63, Phase val, Loss=0.9621, Acc=0.8596, AUC=0.7934, TPR=0.3776, TNR=0.9501, J=0.3277, Precision=0.5871, F1=0.4596, ConfusionMatrix=
+[[2439  128]
+ [ 300  182]]
+Epoch complete in 43.27
+
+Epoch 64, Phase train, Loss=0.0099, Acc=0.9974, AUC=0.9999, TPR=0.9990, TNR=0.9958, J=0.9948, Precision=0.9957, F1=0.9974, ConfusionMatrix=
+[[4061   17]
+ [   4 3982]]
+Epoch 64, Phase val, Loss=0.9505, Acc=0.8583, AUC=0.7933, TPR=0.3963, TNR=0.9451, J=0.3413, Precision=0.5753, F1=0.4693, ConfusionMatrix=
+[[2426  141]
+ [ 291  191]]
+Epoch complete in 41.67
+
+Epoch 65, Phase train, Loss=0.0113, Acc=0.9964, AUC=0.9998, TPR=0.9980, TNR=0.9947, J=0.9928, Precision=0.9949, F1=0.9964, ConfusionMatrix=
+[[3971   21]
+ [   8 4064]]
+Epoch 65, Phase val, Loss=1.0116, Acc=0.8563, AUC=0.7873, TPR=0.3444, TNR=0.9525, J=0.2969, Precision=0.5764, F1=0.4312, ConfusionMatrix=
+[[2445  122]
+ [ 316  166]]
+Epoch complete in 41.77
+
+Epoch 66, Phase train, Loss=0.0111, Acc=0.9963, AUC=0.9999, TPR=0.9978, TNR=0.9948, J=0.9925, Precision=0.9948, F1=0.9963, ConfusionMatrix=
+[[3981   21]
+ [   9 4053]]
+Epoch 66, Phase val, Loss=0.9837, Acc=0.8583, AUC=0.7904, TPR=0.3755, TNR=0.9490, J=0.3245, Precision=0.5801, F1=0.4559, ConfusionMatrix=
+[[2436  131]
+ [ 301  181]]
+Epoch complete in 41.67
+
+Epoch 67, Phase train, Loss=0.0088, Acc=0.9973, AUC=0.9999, TPR=0.9981, TNR=0.9965, J=0.9945, Precision=0.9966, F1=0.9973, ConfusionMatrix=
+[[3937   14]
+ [   8 4105]]
+Epoch 67, Phase val, Loss=0.9868, Acc=0.8570, AUC=0.7934, TPR=0.3734, TNR=0.9478, J=0.3212, Precision=0.5732, F1=0.4523, ConfusionMatrix=
+[[2433  134]
+ [ 302  180]]
+Epoch complete in 43.05
+
+Epoch 68, Phase train, Loss=0.0152, Acc=0.9953, AUC=0.9997, TPR=0.9980, TNR=0.9927, J=0.9907, Precision=0.9925, F1=0.9952, ConfusionMatrix=
+[[4071   30]
+ [   8 3955]]
+Epoch 68, Phase val, Loss=0.9689, Acc=0.8560, AUC=0.7870, TPR=0.3485, TNR=0.9513, J=0.2999, Precision=0.5734, F1=0.4335, ConfusionMatrix=
+[[2442  125]
+ [ 314  168]]
+Epoch complete in 42.08
+
+Epoch 69, Phase train, Loss=0.0097, Acc=0.9969, AUC=0.9999, TPR=0.9971, TNR=0.9967, J=0.9938, Precision=0.9968, F1=0.9969, ConfusionMatrix=
+[[3968   13]
+ [  12 4071]]
+Epoch 69, Phase val, Loss=1.0370, Acc=0.8583, AUC=0.7906, TPR=0.3568, TNR=0.9525, J=0.3093, Precision=0.5850, F1=0.4433, ConfusionMatrix=
+[[2445  122]
+ [ 310  172]]
+Epoch complete in 41.41
+
+Epoch 70, Phase train, Loss=0.0107, Acc=0.9973, AUC=0.9997, TPR=0.9990, TNR=0.9955, J=0.9945, Precision=0.9956, F1=0.9973, ConfusionMatrix=
+[[3981   18]
+ [   4 4061]]
+Epoch 70, Phase val, Loss=0.9913, Acc=0.8613, AUC=0.7931, TPR=0.3859, TNR=0.9505, J=0.3364, Precision=0.5942, F1=0.4679, ConfusionMatrix=
+[[2440  127]
+ [ 296  186]]
+Epoch complete in 41.24
+
+Epoch 71, Phase train, Loss=0.0120, Acc=0.9964, AUC=0.9997, TPR=0.9975, TNR=0.9953, J=0.9928, Precision=0.9953, F1=0.9964, ConfusionMatrix=
+[[3989   19]
+ [  10 4046]]
+Epoch 71, Phase val, Loss=1.0021, Acc=0.8609, AUC=0.7958, TPR=0.3776, TNR=0.9517, J=0.3293, Precision=0.5948, F1=0.4619, ConfusionMatrix=
+[[2443  124]
+ [ 300  182]]
+Epoch complete in 41.97
+
+Epoch 72, Phase train, Loss=0.0096, Acc=0.9971, AUC=0.9999, TPR=0.9990, TNR=0.9953, J=0.9943, Precision=0.9953, F1=0.9972, ConfusionMatrix=
+[[3985   19]
+ [   4 4056]]
+Epoch 72, Phase val, Loss=1.0199, Acc=0.8606, AUC=0.7898, TPR=0.3485, TNR=0.9568, J=0.3053, Precision=0.6022, F1=0.4415, ConfusionMatrix=
+[[2456  111]
+ [ 314  168]]
+Epoch complete in 42.12
+
+Epoch 73, Phase train, Loss=0.0122, Acc=0.9963, AUC=0.9999, TPR=0.9978, TNR=0.9947, J=0.9925, Precision=0.9949, F1=0.9963, ConfusionMatrix=
+[[3977   21]
+ [   9 4057]]
+Epoch 73, Phase val, Loss=0.9960, Acc=0.8563, AUC=0.7875, TPR=0.3548, TNR=0.9505, J=0.3053, Precision=0.5738, F1=0.4385, ConfusionMatrix=
+[[2440  127]
+ [ 311  171]]
+Epoch complete in 89.88
+
+Epoch 74, Phase train, Loss=0.0094, Acc=0.9974, AUC=0.9999, TPR=0.9982, TNR=0.9966, J=0.9948, Precision=0.9965, F1=0.9974, ConfusionMatrix=
+[[4059   14]
+ [   7 3984]]
+Epoch 74, Phase val, Loss=1.0101, Acc=0.8603, AUC=0.7839, TPR=0.3755, TNR=0.9513, J=0.3268, Precision=0.5915, F1=0.4594, ConfusionMatrix=
+[[2442  125]
+ [ 301  181]]
+Epoch complete in 86.71
+
+Epoch 75, Phase train, Loss=0.0071, Acc=0.9984, AUC=0.9999, TPR=0.9990, TNR=0.9978, J=0.9968, Precision=0.9978, F1=0.9984, ConfusionMatrix=
+[[4041    9]
+ [   4 4010]]
+Epoch 75, Phase val, Loss=1.0027, Acc=0.8573, AUC=0.7860, TPR=0.3755, TNR=0.9478, J=0.3233, Precision=0.5746, F1=0.4542, ConfusionMatrix=
+[[2433  134]
+ [ 301  181]]
+Epoch complete in 84.62
+
+Epoch 76, Phase train, Loss=0.0101, Acc=0.9973, AUC=0.9999, TPR=0.9990, TNR=0.9955, J=0.9945, Precision=0.9956, F1=0.9973, ConfusionMatrix=
+[[4001   18]
+ [   4 4041]]
+Epoch 76, Phase val, Loss=1.0032, Acc=0.8583, AUC=0.7863, TPR=0.3672, TNR=0.9505, J=0.3177, Precision=0.5822, F1=0.4504, ConfusionMatrix=
+[[2440  127]
+ [ 305  177]]
+Epoch complete in 84.79
+
+Epoch 77, Phase train, Loss=0.0092, Acc=0.9975, AUC=0.9999, TPR=0.9993, TNR=0.9958, J=0.9951, Precision=0.9958, F1=0.9975, ConfusionMatrix=
+[[4033   17]
+ [   3 4011]]
+Epoch 77, Phase val, Loss=1.0025, Acc=0.8580, AUC=0.7843, TPR=0.3568, TNR=0.9521, J=0.3089, Precision=0.5831, F1=0.4427, ConfusionMatrix=
+[[2444  123]
+ [ 310  172]]
+Epoch complete in 89.03
+
+Epoch 78, Phase train, Loss=0.0095, Acc=0.9973, AUC=0.9999, TPR=0.9982, TNR=0.9963, J=0.9946, Precision=0.9962, F1=0.9972, ConfusionMatrix=
+[[4087   15]
+ [   7 3955]]
+Epoch 78, Phase val, Loss=1.0006, Acc=0.8632, AUC=0.7903, TPR=0.3942, TNR=0.9513, J=0.3455, Precision=0.6032, F1=0.4768, ConfusionMatrix=
+[[2442  125]
+ [ 292  190]]
+Epoch complete in 90.52
+
+Epoch 79, Phase train, Loss=0.0096, Acc=0.9970, AUC=0.9999, TPR=0.9985, TNR=0.9955, J=0.9941, Precision=0.9955, F1=0.9970, ConfusionMatrix=
+[[4023   18]
+ [   6 4017]]
+Epoch 79, Phase val, Loss=1.0226, Acc=0.8609, AUC=0.7849, TPR=0.3568, TNR=0.9556, J=0.3124, Precision=0.6014, F1=0.4479, ConfusionMatrix=
+[[2453  114]
+ [ 310  172]]
+Epoch complete in 89.20
+
+Epoch 80, Phase train, Loss=0.0109, Acc=0.9973, AUC=0.9999, TPR=0.9993, TNR=0.9953, J=0.9946, Precision=0.9953, F1=0.9973, ConfusionMatrix=
+[[4043   19]
+ [   3 3999]]
+Epoch 80, Phase val, Loss=1.0751, Acc=0.8636, AUC=0.7862, TPR=0.3485, TNR=0.9603, J=0.3088, Precision=0.6222, F1=0.4468, ConfusionMatrix=
+[[2465  102]
+ [ 314  168]]
+Epoch complete in 91.68
+
+Epoch 81, Phase train, Loss=0.0076, Acc=0.9975, AUC=0.9999, TPR=0.9988, TNR=0.9963, J=0.9950, Precision=0.9963, F1=0.9975, ConfusionMatrix=
+[[4018   15]
+ [   5 4026]]
+Epoch 81, Phase val, Loss=1.0208, Acc=0.8609, AUC=0.7882, TPR=0.3693, TNR=0.9533, J=0.3225, Precision=0.5973, F1=0.4564, ConfusionMatrix=
+[[2447  120]
+ [ 304  178]]
+Epoch complete in 94.41
+
+Epoch 82, Phase train, Loss=0.0064, Acc=0.9984, AUC=1.0000, TPR=0.9998, TNR=0.9970, J=0.9967, Precision=0.9971, F1=0.9984, ConfusionMatrix=
+[[3974   12]
+ [   1 4077]]
+Epoch 82, Phase val, Loss=1.0292, Acc=0.8593, AUC=0.7885, TPR=0.3714, TNR=0.9509, J=0.3223, Precision=0.5869, F1=0.4549, ConfusionMatrix=
+[[2441  126]
+ [ 303  179]]
+Epoch complete in 115.30
+
+Epoch 83, Phase train, Loss=0.0080, Acc=0.9980, AUC=0.9999, TPR=0.9995, TNR=0.9966, J=0.9961, Precision=0.9965, F1=0.9980, ConfusionMatrix=
+[[4069   14]
+ [   2 3979]]
+Epoch 83, Phase val, Loss=1.0185, Acc=0.8593, AUC=0.7872, TPR=0.3734, TNR=0.9505, J=0.3240, Precision=0.5863, F1=0.4563, ConfusionMatrix=
+[[2440  127]
+ [ 302  180]]
+Epoch complete in 67.06
+
+Epoch 84, Phase train, Loss=0.0057, Acc=0.9989, AUC=1.0000, TPR=1.0000, TNR=0.9977, J=0.9977, Precision=0.9978, F1=0.9989, ConfusionMatrix=
+[[3945    9]
+ [   0 4110]]
+Epoch 84, Phase val, Loss=1.0649, Acc=0.8613, AUC=0.7885, TPR=0.3485, TNR=0.9575, J=0.3061, Precision=0.6065, F1=0.4427, ConfusionMatrix=
+[[2458  109]
+ [ 314  168]]
+Epoch complete in 45.09
+
+Epoch 85, Phase train, Loss=0.0068, Acc=0.9979, AUC=1.0000, TPR=0.9995, TNR=0.9963, J=0.9958, Precision=0.9963, F1=0.9979, ConfusionMatrix=
+[[3988   15]
+ [   2 4059]]
+Epoch 85, Phase val, Loss=1.0150, Acc=0.8609, AUC=0.7886, TPR=0.3797, TNR=0.9513, J=0.3310, Precision=0.5942, F1=0.4633, ConfusionMatrix=
+[[2442  125]
+ [ 299  183]]
+Epoch complete in 45.44
+
+Epoch 86, Phase train, Loss=0.0080, Acc=0.9978, AUC=0.9999, TPR=0.9992, TNR=0.9963, J=0.9956, Precision=0.9962, F1=0.9977, ConfusionMatrix=
+[[4071   15]
+ [   3 3975]]
+Epoch 86, Phase val, Loss=1.0261, Acc=0.8609, AUC=0.7900, TPR=0.3714, TNR=0.9529, J=0.3242, Precision=0.5967, F1=0.4578, ConfusionMatrix=
+[[2446  121]
+ [ 303  179]]
+Epoch complete in 47.88
+
+Epoch 87, Phase train, Loss=0.0090, Acc=0.9974, AUC=0.9999, TPR=0.9998, TNR=0.9950, J=0.9947, Precision=0.9951, F1=0.9974, ConfusionMatrix=
+[[3960   20]
+ [   1 4083]]
+Epoch 87, Phase val, Loss=1.0521, Acc=0.8616, AUC=0.7887, TPR=0.3631, TNR=0.9552, J=0.3183, Precision=0.6034, F1=0.4534, ConfusionMatrix=
+[[2452  115]
+ [ 307  175]]
+Epoch complete in 44.50
+
+Epoch 88, Phase train, Loss=0.0080, Acc=0.9975, AUC=0.9999, TPR=0.9990, TNR=0.9961, J=0.9951, Precision=0.9960, F1=0.9975, ConfusionMatrix=
+[[4081   16]
+ [   4 3963]]
+Epoch 88, Phase val, Loss=1.0416, Acc=0.8600, AUC=0.7873, TPR=0.3651, TNR=0.9529, J=0.3180, Precision=0.5926, F1=0.4519, ConfusionMatrix=
+[[2446  121]
+ [ 306  176]]
+Epoch complete in 41.74
+
+Epoch 89, Phase train, Loss=0.0091, Acc=0.9976, AUC=0.9999, TPR=0.9998, TNR=0.9955, J=0.9952, Precision=0.9956, F1=0.9977, ConfusionMatrix=
+[[3978   18]
+ [   1 4067]]
+Epoch 89, Phase val, Loss=1.0322, Acc=0.8600, AUC=0.7868, TPR=0.3651, TNR=0.9529, J=0.3180, Precision=0.5926, F1=0.4519, ConfusionMatrix=
+[[2446  121]
+ [ 306  176]]
+Epoch complete in 43.98
+
+Epoch 90, Phase train, Loss=0.0089, Acc=0.9973, AUC=0.9999, TPR=0.9993, TNR=0.9952, J=0.9945, Precision=0.9954, F1=0.9973, ConfusionMatrix=
+[[3968   19]
+ [   3 4074]]
+Epoch 90, Phase val, Loss=1.0594, Acc=0.8619, AUC=0.7889, TPR=0.3610, TNR=0.9560, J=0.3170, Precision=0.6063, F1=0.4525, ConfusionMatrix=
+[[2454  113]
+ [ 308  174]]
+Epoch complete in 42.62
+
+Epoch 91, Phase train, Loss=0.0096, Acc=0.9976, AUC=0.9999, TPR=0.9995, TNR=0.9957, J=0.9952, Precision=0.9959, F1=0.9977, ConfusionMatrix=
+[[3965   17]
+ [   2 4080]]
+Epoch 91, Phase val, Loss=1.0806, Acc=0.8606, AUC=0.7889, TPR=0.3527, TNR=0.9560, J=0.3087, Precision=0.6007, F1=0.4444, ConfusionMatrix=
+[[2454  113]
+ [ 312  170]]
+Epoch complete in 40.10
+
+Epoch 92, Phase train, Loss=0.0079, Acc=0.9976, AUC=0.9999, TPR=0.9995, TNR=0.9958, J=0.9953, Precision=0.9958, F1=0.9976, ConfusionMatrix=
+[[4055   17]
+ [   2 3990]]
+Epoch 92, Phase val, Loss=1.0450, Acc=0.8606, AUC=0.7886, TPR=0.3651, TNR=0.9536, J=0.3188, Precision=0.5966, F1=0.4530, ConfusionMatrix=
+[[2448  119]
+ [ 306  176]]
+Epoch complete in 42.90
+
+Epoch 93, Phase train, Loss=0.0079, Acc=0.9978, AUC=0.9999, TPR=0.9995, TNR=0.9960, J=0.9955, Precision=0.9961, F1=0.9978, ConfusionMatrix=
+[[3956   16]
+ [   2 4090]]
+Epoch 93, Phase val, Loss=1.0659, Acc=0.8616, AUC=0.7894, TPR=0.3589, TNR=0.9560, J=0.3149, Precision=0.6049, F1=0.4505, ConfusionMatrix=
+[[2454  113]
+ [ 309  173]]
+Epoch complete in 42.22
+
+Epoch 94, Phase train, Loss=0.0062, Acc=0.9988, AUC=1.0000, TPR=1.0000, TNR=0.9975, J=0.9975, Precision=0.9976, F1=0.9988, ConfusionMatrix=
+[[3921   10]
+ [   0 4133]]
+Epoch 94, Phase val, Loss=1.0542, Acc=0.8609, AUC=0.7894, TPR=0.3651, TNR=0.9540, J=0.3192, Precision=0.5986, F1=0.4536, ConfusionMatrix=
+[[2449  118]
+ [ 306  176]]
+Epoch complete in 42.11
+
+Epoch 95, Phase train, Loss=0.0104, Acc=0.9970, AUC=0.9998, TPR=1.0000, TNR=0.9940, J=0.9940, Precision=0.9941, F1=0.9971, ConfusionMatrix=
+[[3981   24]
+ [   0 4059]]
+Epoch 95, Phase val, Loss=1.0390, Acc=0.8613, AUC=0.7882, TPR=0.3714, TNR=0.9533, J=0.3246, Precision=0.5987, F1=0.4584, ConfusionMatrix=
+[[2447  120]
+ [ 303  179]]
+Epoch complete in 43.70
+
+Epoch 96, Phase train, Loss=0.0074, Acc=0.9980, AUC=0.9999, TPR=0.9998, TNR=0.9962, J=0.9960, Precision=0.9964, F1=0.9981, ConfusionMatrix=
+[[3938   15]
+ [   1 4110]]
+Epoch 96, Phase val, Loss=1.0431, Acc=0.8600, AUC=0.7896, TPR=0.3651, TNR=0.9529, J=0.3180, Precision=0.5926, F1=0.4519, ConfusionMatrix=
+[[2446  121]
+ [ 306  176]]
+Epoch complete in 42.73
+
+Epoch 97, Phase train, Loss=0.0072, Acc=0.9976, AUC=1.0000, TPR=0.9995, TNR=0.9958, J=0.9953, Precision=0.9957, F1=0.9976, ConfusionMatrix=
+[[4067   17]
+ [   2 3978]]
+Epoch 97, Phase val, Loss=1.0186, Acc=0.8586, AUC=0.7913, TPR=0.3797, TNR=0.9486, J=0.3282, Precision=0.5810, F1=0.4592, ConfusionMatrix=
+[[2435  132]
+ [ 299  183]]
+Epoch complete in 43.16
+
+Epoch 98, Phase train, Loss=0.0078, Acc=0.9975, AUC=0.9999, TPR=0.9995, TNR=0.9956, J=0.9951, Precision=0.9955, F1=0.9975, ConfusionMatrix=
+[[4052   18]
+ [   2 3992]]
+Epoch 98, Phase val, Loss=1.0519, Acc=0.8596, AUC=0.7879, TPR=0.3506, TNR=0.9552, J=0.3058, Precision=0.5951, F1=0.4413, ConfusionMatrix=
+[[2452  115]
+ [ 313  169]]
+Epoch complete in 42.39
+
+Epoch 99, Phase train, Loss=0.0065, Acc=0.9980, AUC=1.0000, TPR=0.9995, TNR=0.9965, J=0.9960, Precision=0.9965, F1=0.9980, ConfusionMatrix=
+[[4017   14]
+ [   2 4031]]
+Epoch 99, Phase val, Loss=1.0650, Acc=0.8603, AUC=0.7897, TPR=0.3568, TNR=0.9548, J=0.3117, Precision=0.5972, F1=0.4468, ConfusionMatrix=
+[[2451  116]
+ [ 310  172]]
+Epoch complete in 43.60
+
+Epoch 100, Phase train, Loss=0.0075, Acc=0.9981, AUC=0.9999, TPR=1.0000, TNR=0.9963, J=0.9963, Precision=0.9963, F1=0.9982, ConfusionMatrix=
+[[3987   15]
+ [   0 4062]]
+Epoch 100, Phase val, Loss=1.0660, Acc=0.8606, AUC=0.7885, TPR=0.3568, TNR=0.9552, J=0.3120, Precision=0.5993, F1=0.4473, ConfusionMatrix=
+[[2452  115]
+ [ 310  172]]
+Epoch complete in 41.80
+
+Epoch 101, Phase train, Loss=0.0072, Acc=0.9976, AUC=0.9999, TPR=0.9990, TNR=0.9963, J=0.9953, Precision=0.9963, F1=0.9976, ConfusionMatrix=
+[[4028   15]
+ [   4 4017]]
+Epoch 101, Phase val, Loss=1.0624, Acc=0.8613, AUC=0.7885, TPR=0.3568, TNR=0.9560, J=0.3128, Precision=0.6035, F1=0.4485, ConfusionMatrix=
+[[2454  113]
+ [ 310  172]]
+Epoch complete in 44.33
+
+Epoch 102, Phase train, Loss=0.0089, Acc=0.9974, AUC=0.9999, TPR=0.9998, TNR=0.9950, J=0.9948, Precision=0.9951, F1=0.9974, ConfusionMatrix=
+[[3984   20]
+ [   1 4059]]
+Epoch 102, Phase val, Loss=1.0717, Acc=0.8609, AUC=0.7896, TPR=0.3568, TNR=0.9556, J=0.3124, Precision=0.6014, F1=0.4479, ConfusionMatrix=
+[[2453  114]
+ [ 310  172]]
+Epoch complete in 41.77
+
+Epoch 103, Phase train, Loss=0.0069, Acc=0.9984, AUC=0.9999, TPR=1.0000, TNR=0.9968, J=0.9968, Precision=0.9968, F1=0.9984, ConfusionMatrix=
+[[4001   13]
+ [   0 4050]]
+Epoch 103, Phase val, Loss=1.0395, Acc=0.8593, AUC=0.7916, TPR=0.3693, TNR=0.9513, J=0.3206, Precision=0.5875, F1=0.4535, ConfusionMatrix=
+[[2442  125]
+ [ 304  178]]
+Epoch complete in 43.01
+
+Epoch 104, Phase train, Loss=0.0055, Acc=0.9988, AUC=1.0000, TPR=1.0000, TNR=0.9975, J=0.9975, Precision=0.9975, F1=0.9988, ConfusionMatrix=
+[[4039   10]
+ [   0 4015]]
+Epoch 104, Phase val, Loss=1.0096, Acc=0.8570, AUC=0.7912, TPR=0.3838, TNR=0.9459, J=0.3297, Precision=0.5710, F1=0.4591, ConfusionMatrix=
+[[2428  139]
+ [ 297  185]]
+Epoch complete in 41.28
+
+Epoch 105, Phase train, Loss=0.0084, Acc=0.9975, AUC=0.9999, TPR=1.0000, TNR=0.9952, J=0.9952, Precision=0.9949, F1=0.9975, ConfusionMatrix=
+[[4123   20]
+ [   0 3921]]
+Epoch 105, Phase val, Loss=1.0065, Acc=0.8593, AUC=0.7903, TPR=0.3776, TNR=0.9497, J=0.3273, Precision=0.5852, F1=0.4590, ConfusionMatrix=
+[[2438  129]
+ [ 300  182]]
+Epoch complete in 43.04
+
+Epoch 106, Phase train, Loss=0.0053, Acc=0.9985, AUC=1.0000, TPR=0.9995, TNR=0.9975, J=0.9970, Precision=0.9975, F1=0.9985, ConfusionMatrix=
+[[4053   10]
+ [   2 3999]]
+Epoch 106, Phase val, Loss=1.0392, Acc=0.8593, AUC=0.7896, TPR=0.3651, TNR=0.9521, J=0.3172, Precision=0.5886, F1=0.4507, ConfusionMatrix=
+[[2444  123]
+ [ 306  176]]
+Epoch complete in 43.11
+
+Epoch 107, Phase train, Loss=0.0094, Acc=0.9976, AUC=0.9999, TPR=1.0000, TNR=0.9952, J=0.9952, Precision=0.9954, F1=0.9977, ConfusionMatrix=
+[[3949   19]
+ [   0 4096]]
+Epoch 107, Phase val, Loss=1.0979, Acc=0.8603, AUC=0.7876, TPR=0.3423, TNR=0.9575, J=0.2999, Precision=0.6022, F1=0.4365, ConfusionMatrix=
+[[2458  109]
+ [ 317  165]]
+Epoch complete in 40.93
+
+Epoch 108, Phase train, Loss=0.0089, Acc=0.9973, AUC=0.9999, TPR=0.9998, TNR=0.9947, J=0.9945, Precision=0.9949, F1=0.9973, ConfusionMatrix=
+[[3963   21]
+ [   1 4079]]
+Epoch 108, Phase val, Loss=1.0757, Acc=0.8619, AUC=0.7907, TPR=0.3548, TNR=0.9571, J=0.3119, Precision=0.6085, F1=0.4482, ConfusionMatrix=
+[[2457  110]
+ [ 311  171]]
+Epoch complete in 41.70
+
+Epoch 109, Phase train, Loss=0.0051, Acc=0.9986, AUC=1.0000, TPR=1.0000, TNR=0.9973, J=0.9973, Precision=0.9973, F1=0.9986, ConfusionMatrix=
+[[4014   11]
+ [   0 4039]]
+Epoch 109, Phase val, Loss=1.0296, Acc=0.8590, AUC=0.7914, TPR=0.3693, TNR=0.9509, J=0.3202, Precision=0.5855, F1=0.4529, ConfusionMatrix=
+[[2441  126]
+ [ 304  178]]
+Epoch complete in 41.14
+
+Epoch 110, Phase train, Loss=0.0068, Acc=0.9980, AUC=1.0000, TPR=1.0000, TNR=0.9961, J=0.9961, Precision=0.9960, F1=0.9980, ConfusionMatrix=
+[[4040   16]
+ [   0 4008]]
+Epoch 110, Phase val, Loss=1.0217, Acc=0.8590, AUC=0.7909, TPR=0.3693, TNR=0.9509, J=0.3202, Precision=0.5855, F1=0.4529, ConfusionMatrix=
+[[2441  126]
+ [ 304  178]]
+Epoch complete in 42.04
+
+Epoch 111, Phase train, Loss=0.0064, Acc=0.9980, AUC=1.0000, TPR=0.9997, TNR=0.9963, J=0.9961, Precision=0.9962, F1=0.9980, ConfusionMatrix=
+[[4065   15]
+ [   1 3983]]
+Epoch 111, Phase val, Loss=1.0271, Acc=0.8603, AUC=0.7926, TPR=0.3714, TNR=0.9521, J=0.3235, Precision=0.5927, F1=0.4566, ConfusionMatrix=
+[[2444  123]
+ [ 303  179]]
+Epoch complete in 41.59
+
+Epoch 112, Phase train, Loss=0.0097, Acc=0.9970, AUC=0.9999, TPR=0.9993, TNR=0.9947, J=0.9940, Precision=0.9949, F1=0.9971, ConfusionMatrix=
+[[3935   21]
+ [   3 4105]]
+Epoch 112, Phase val, Loss=1.1064, Acc=0.8603, AUC=0.7880, TPR=0.3340, TNR=0.9591, J=0.2931, Precision=0.6053, F1=0.4305, ConfusionMatrix=
+[[2462  105]
+ [ 321  161]]
+Epoch complete in 43.32
+
+Epoch 113, Phase train, Loss=0.0067, Acc=0.9984, AUC=0.9999, TPR=0.9998, TNR=0.9970, J=0.9968, Precision=0.9970, F1=0.9984, ConfusionMatrix=
+[[4034   12]
+ [   1 4017]]
+Epoch 113, Phase val, Loss=1.0297, Acc=0.8580, AUC=0.7885, TPR=0.3631, TNR=0.9509, J=0.3140, Precision=0.5814, F1=0.4470, ConfusionMatrix=
+[[2441  126]
+ [ 307  175]]
+Epoch complete in 43.71
+
+Epoch 114, Phase train, Loss=0.0067, Acc=0.9981, AUC=1.0000, TPR=0.9997, TNR=0.9966, J=0.9963, Precision=0.9965, F1=0.9981, ConfusionMatrix=
+[[4073   14]
+ [   1 3976]]
+Epoch 114, Phase val, Loss=1.0496, Acc=0.8596, AUC=0.7894, TPR=0.3651, TNR=0.9525, J=0.3176, Precision=0.5906, F1=0.4513, ConfusionMatrix=
+[[2445  122]
+ [ 306  176]]
+Epoch complete in 42.10
+
+Epoch 115, Phase train, Loss=0.0087, Acc=0.9973, AUC=0.9999, TPR=0.9995, TNR=0.9950, J=0.9945, Precision=0.9951, F1=0.9973, ConfusionMatrix=
+[[3944   20]
+ [   2 4098]]
+Epoch 115, Phase val, Loss=1.0590, Acc=0.8609, AUC=0.7899, TPR=0.3568, TNR=0.9556, J=0.3124, Precision=0.6014, F1=0.4479, ConfusionMatrix=
+[[2453  114]
+ [ 310  172]]
+Epoch complete in 41.89
+
+Epoch 116, Phase train, Loss=0.0072, Acc=0.9978, AUC=1.0000, TPR=0.9995, TNR=0.9960, J=0.9955, Precision=0.9960, F1=0.9978, ConfusionMatrix=
+[[4015   16]
+ [   2 4031]]
+Epoch 116, Phase val, Loss=1.0606, Acc=0.8609, AUC=0.7925, TPR=0.3631, TNR=0.9544, J=0.3175, Precision=0.5993, F1=0.4522, ConfusionMatrix=
+[[2450  117]
+ [ 307  175]]
+Epoch complete in 41.89
+
+Epoch 117, Phase train, Loss=0.0071, Acc=0.9983, AUC=0.9999, TPR=0.9998, TNR=0.9968, J=0.9965, Precision=0.9968, F1=0.9983, ConfusionMatrix=
+[[4008   13]
+ [   1 4042]]
+Epoch 117, Phase val, Loss=1.0620, Acc=0.8613, AUC=0.7898, TPR=0.3610, TNR=0.9552, J=0.3162, Precision=0.6021, F1=0.4514, ConfusionMatrix=
+[[2452  115]
+ [ 308  174]]
+Epoch complete in 42.65
+
+Epoch 118, Phase train, Loss=0.0085, Acc=0.9974, AUC=0.9999, TPR=1.0000, TNR=0.9948, J=0.9948, Precision=0.9948, F1=0.9974, ConfusionMatrix=
+[[3998   21]
+ [   0 4045]]
+Epoch 118, Phase val, Loss=1.0650, Acc=0.8609, AUC=0.7887, TPR=0.3527, TNR=0.9564, J=0.3091, Precision=0.6028, F1=0.4450, ConfusionMatrix=
+[[2455  112]
+ [ 312  170]]
+Epoch complete in 42.67
+
+Epoch 119, Phase train, Loss=0.0070, Acc=0.9983, AUC=0.9999, TPR=0.9998, TNR=0.9968, J=0.9965, Precision=0.9968, F1=0.9983, ConfusionMatrix=
+[[3988   13]
+ [   1 4062]]
+Epoch 119, Phase val, Loss=1.0493, Acc=0.8606, AUC=0.7893, TPR=0.3631, TNR=0.9540, J=0.3171, Precision=0.5973, F1=0.4516, ConfusionMatrix=
+[[2449  118]
+ [ 307  175]]
+Epoch complete in 41.37
+
+Training complete in 101m 7s
+Start training resnet_conv1x1_maxpool
+Epoch 0, Phase train, Loss=0.6364, Acc=0.6317, AUC=0.6846, TPR=0.6781, TNR=0.5854, J=0.2635, Precision=0.6199, F1=0.6477, ConfusionMatrix=
+[[2364 1674]
+ [1296 2730]]
+Epoch 0, Phase val, Loss=0.6113, Acc=0.6500, AUC=0.7837, TPR=0.7967, TNR=0.6225, J=0.4192, Precision=0.2838, F1=0.4185, ConfusionMatrix=
+[[1598  969]
+ [  98  384]]
+New Best AUC=0.7837
+Epoch complete in 43.19
+
+Epoch 1, Phase train, Loss=0.5425, Acc=0.7281, AUC=0.8031, TPR=0.7139, TNR=0.7424, J=0.4563, Precision=0.7377, F1=0.7256, ConfusionMatrix=
+[[2971 1031]
+ [1162 2900]]
+Epoch 1, Phase val, Loss=0.8144, Acc=0.5972, AUC=0.8220, TPR=0.8402, TNR=0.5516, J=0.3919, Precision=0.2603, F1=0.3974, ConfusionMatrix=
+[[1416 1151]
+ [  77  405]]
+New Best AUC=0.8220
+Epoch complete in 41.57
+
+Epoch 2, Phase train, Loss=0.5147, Acc=0.7522, AUC=0.8262, TPR=0.7251, TNR=0.7803, J=0.5054, Precision=0.7734, F1=0.7485, ConfusionMatrix=
+[[3093  871]
+ [1127 2973]]
+Epoch 2, Phase val, Loss=0.4920, Acc=0.8065, AUC=0.8351, TPR=0.7033, TNR=0.8259, J=0.5292, Precision=0.4313, F1=0.5347, ConfusionMatrix=
+[[2120  447]
+ [ 143  339]]
+New Best AUC=0.8351
+Epoch complete in 42.54
+
+Epoch 3, Phase train, Loss=0.4869, Acc=0.7742, AUC=0.8483, TPR=0.7367, TNR=0.8108, J=0.5475, Precision=0.7917, F1=0.7632, ConfusionMatrix=
+[[3308  772]
+ [1049 2935]]
+Epoch 3, Phase val, Loss=0.4925, Acc=0.7898, AUC=0.8353, TPR=0.7324, TNR=0.8005, J=0.5329, Precision=0.4081, F1=0.5241, ConfusionMatrix=
+[[2055  512]
+ [ 129  353]]
+New Best AUC=0.8353
+Epoch complete in 42.90
+
+Epoch 4, Phase train, Loss=0.4553, Acc=0.7902, AUC=0.8679, TPR=0.7740, TNR=0.8059, J=0.5798, Precision=0.7940, F1=0.7839, ConfusionMatrix=
+[[3304  796]
+ [ 896 3068]]
+Epoch 4, Phase val, Loss=0.5175, Acc=0.7891, AUC=0.8395, TPR=0.7241, TNR=0.8013, J=0.5254, Precision=0.4063, F1=0.5205, ConfusionMatrix=
+[[2057  510]
+ [ 133  349]]
+New Best AUC=0.8395
+Epoch complete in 43.91
+
+Epoch 5, Phase train, Loss=0.4249, Acc=0.8098, AUC=0.8868, TPR=0.8055, TNR=0.8139, J=0.6195, Precision=0.8092, F1=0.8073, ConfusionMatrix=
+[[3316  758]
+ [ 776 3214]]
+Epoch 5, Phase val, Loss=0.5117, Acc=0.7530, AUC=0.8244, TPR=0.7531, TNR=0.7530, J=0.5061, Precision=0.3641, F1=0.4909, ConfusionMatrix=
+[[1933  634]
+ [ 119  363]]
+Epoch complete in 44.42
+
+Epoch 6, Phase train, Loss=0.4117, Acc=0.8167, AUC=0.8937, TPR=0.8166, TNR=0.8169, J=0.6334, Precision=0.8087, F1=0.8126, ConfusionMatrix=
+[[3381  758]
+ [ 720 3205]]
+Epoch 6, Phase val, Loss=0.3438, Acc=0.8714, AUC=0.8205, TPR=0.4896, TNR=0.9431, J=0.4328, Precision=0.6178, F1=0.5463, ConfusionMatrix=
+[[2421  146]
+ [ 246  236]]
+Epoch complete in 44.53
+
+Epoch 7, Phase train, Loss=0.3988, Acc=0.8182, AUC=0.8998, TPR=0.8294, TNR=0.8071, J=0.6364, Precision=0.8108, F1=0.8200, ConfusionMatrix=
+[[3259  779]
+ [ 687 3339]]
+Epoch 7, Phase val, Loss=0.4704, Acc=0.7855, AUC=0.8333, TPR=0.7365, TNR=0.7947, J=0.5312, Precision=0.4025, F1=0.5205, ConfusionMatrix=
+[[2040  527]
+ [ 127  355]]
+Epoch complete in 43.50
+
+Epoch 8, Phase train, Loss=0.3776, Acc=0.8336, AUC=0.9102, TPR=0.8511, TNR=0.8160, J=0.6671, Precision=0.8230, F1=0.8368, ConfusionMatrix=
+[[3281  740]
+ [ 602 3441]]
+Epoch 8, Phase val, Loss=0.4279, Acc=0.8150, AUC=0.8425, TPR=0.7012, TNR=0.8364, J=0.5376, Precision=0.4459, F1=0.5452, ConfusionMatrix=
+[[2147  420]
+ [ 144  338]]
+New Best AUC=0.8425
+Epoch complete in 43.07
+
+Epoch 9, Phase train, Loss=0.3498, Acc=0.8512, AUC=0.9239, TPR=0.8656, TNR=0.8369, J=0.7026, Precision=0.8396, F1=0.8524, ConfusionMatrix=
+[[3398  662]
+ [ 538 3466]]
+Epoch 9, Phase val, Loss=0.5506, Acc=0.7353, AUC=0.8295, TPR=0.7697, TNR=0.7289, J=0.4986, Precision=0.3477, F1=0.4790, ConfusionMatrix=
+[[1871  696]
+ [ 111  371]]
+Epoch complete in 42.51
+
+Epoch 10, Phase train, Loss=0.3402, Acc=0.8569, AUC=0.9277, TPR=0.8809, TNR=0.8328, J=0.7137, Precision=0.8409, F1=0.8604, ConfusionMatrix=
+[[3353  673]
+ [ 481 3557]]
+Epoch 10, Phase val, Loss=0.5152, Acc=0.7766, AUC=0.8227, TPR=0.7241, TNR=0.7865, J=0.5106, Precision=0.3891, F1=0.5062, ConfusionMatrix=
+[[2019  548]
+ [ 133  349]]
+Epoch complete in 42.69
+
+Epoch 11, Phase train, Loss=0.3188, Acc=0.8627, AUC=0.9369, TPR=0.8869, TNR=0.8389, J=0.7258, Precision=0.8445, F1=0.8651, ConfusionMatrix=
+[[3406  654]
+ [ 453 3551]]
+Epoch 11, Phase val, Loss=0.4490, Acc=0.8268, AUC=0.8103, TPR=0.5685, TNR=0.8753, J=0.4438, Precision=0.4613, F1=0.5093, ConfusionMatrix=
+[[2247  320]
+ [ 208  274]]
+Epoch complete in 43.11
+
+Epoch 12, Phase train, Loss=0.2996, Acc=0.8759, AUC=0.9437, TPR=0.8981, TNR=0.8535, J=0.7516, Precision=0.8604, F1=0.8789, ConfusionMatrix=
+[[3432  589]
+ [ 412 3631]]
+Epoch 12, Phase val, Loss=0.4437, Acc=0.8449, AUC=0.8092, TPR=0.4813, TNR=0.9131, J=0.3945, Precision=0.5099, F1=0.4952, ConfusionMatrix=
+[[2344  223]
+ [ 250  232]]
+Epoch complete in 43.42
+
+Epoch 13, Phase train, Loss=0.2732, Acc=0.8881, AUC=0.9522, TPR=0.9119, TNR=0.8640, J=0.7759, Precision=0.8720, F1=0.8915, ConfusionMatrix=
+[[3457  544]
+ [ 358 3705]]
+Epoch 13, Phase val, Loss=0.5048, Acc=0.7937, AUC=0.8270, TPR=0.6722, TNR=0.8165, J=0.4887, Precision=0.4075, F1=0.5074, ConfusionMatrix=
+[[2096  471]
+ [ 158  324]]
+Epoch complete in 42.44
+
+Epoch 14, Phase train, Loss=0.2712, Acc=0.8872, AUC=0.9536, TPR=0.9149, TNR=0.8585, J=0.7735, Precision=0.8695, F1=0.8916, ConfusionMatrix=
+[[3411  562]
+ [ 348 3743]]
+Epoch 14, Phase val, Loss=0.4616, Acc=0.8167, AUC=0.8210, TPR=0.6390, TNR=0.8500, J=0.4890, Precision=0.4444, F1=0.5243, ConfusionMatrix=
+[[2182  385]
+ [ 174  308]]
+Epoch complete in 42.46
+
+Epoch 15, Phase train, Loss=0.2508, Acc=0.8992, AUC=0.9600, TPR=0.9241, TNR=0.8739, J=0.7980, Precision=0.8814, F1=0.9022, ConfusionMatrix=
+[[3499  505]
+ [ 308 3752]]
+Epoch 15, Phase val, Loss=0.4903, Acc=0.7967, AUC=0.8236, TPR=0.6473, TNR=0.8247, J=0.4720, Precision=0.4094, F1=0.5016, ConfusionMatrix=
+[[2117  450]
+ [ 170  312]]
+Epoch complete in 42.08
+
+Epoch 16, Phase train, Loss=0.2481, Acc=0.9009, AUC=0.9606, TPR=0.9213, TNR=0.8801, J=0.8014, Precision=0.8872, F1=0.9039, ConfusionMatrix=
+[[3507  478]
+ [ 321 3758]]
+Epoch 16, Phase val, Loss=0.5081, Acc=0.8003, AUC=0.8104, TPR=0.6494, TNR=0.8286, J=0.4780, Precision=0.4157, F1=0.5069, ConfusionMatrix=
+[[2127  440]
+ [ 169  313]]
+Epoch complete in 42.22
+
+Epoch 17, Phase train, Loss=0.2310, Acc=0.9046, AUC=0.9655, TPR=0.9262, TNR=0.8829, J=0.8091, Precision=0.8887, F1=0.9070, ConfusionMatrix=
+[[3544  470]
+ [ 299 3751]]
+Epoch 17, Phase val, Loss=0.4915, Acc=0.8206, AUC=0.8079, TPR=0.5809, TNR=0.8656, J=0.4465, Precision=0.4480, F1=0.5059, ConfusionMatrix=
+[[2222  345]
+ [ 202  280]]
+Epoch complete in 45.17
+
+Epoch 18, Phase train, Loss=0.2211, Acc=0.9113, AUC=0.9683, TPR=0.9362, TNR=0.8870, J=0.8233, Precision=0.8900, F1=0.9125, ConfusionMatrix=
+[[3619  461]
+ [ 254 3730]]
+Epoch 18, Phase val, Loss=0.5340, Acc=0.8442, AUC=0.8132, TPR=0.5477, TNR=0.8999, J=0.4476, Precision=0.5067, F1=0.5264, ConfusionMatrix=
+[[2310  257]
+ [ 218  264]]
+Epoch complete in 48.26
+
+Epoch 19, Phase train, Loss=0.2344, Acc=0.9017, AUC=0.9652, TPR=0.9199, TNR=0.8837, J=0.8036, Precision=0.8864, F1=0.9028, ConfusionMatrix=
+[[3587  472]
+ [ 321 3684]]
+Epoch 19, Phase val, Loss=0.5024, Acc=0.8055, AUC=0.8112, TPR=0.6245, TNR=0.8395, J=0.4640, Precision=0.4222, F1=0.5038, ConfusionMatrix=
+[[2155  412]
+ [ 181  301]]
+Epoch complete in 46.06
+
+Epoch 20, Phase train, Loss=0.2039, Acc=0.9196, AUC=0.9732, TPR=0.9433, TNR=0.8955, J=0.8388, Precision=0.9021, F1=0.9222, ConfusionMatrix=
+[[3573  417]
+ [ 231 3843]]
+Epoch 20, Phase val, Loss=0.4302, Acc=0.8321, AUC=0.8271, TPR=0.6120, TNR=0.8734, J=0.4854, Precision=0.4758, F1=0.5354, ConfusionMatrix=
+[[2242  325]
+ [ 187  295]]
+Epoch complete in 42.63
+
+Epoch 21, Phase train, Loss=0.1948, Acc=0.9218, AUC=0.9761, TPR=0.9400, TNR=0.9040, J=0.8441, Precision=0.9047, F1=0.9220, ConfusionMatrix=
+[[3702  393]
+ [ 238 3731]]
+Epoch 21, Phase val, Loss=0.5390, Acc=0.8226, AUC=0.7939, TPR=0.5539, TNR=0.8730, J=0.4269, Precision=0.4503, F1=0.4967, ConfusionMatrix=
+[[2241  326]
+ [ 215  267]]
+Epoch complete in 42.66
+
+Epoch 22, Phase train, Loss=0.1848, Acc=0.9292, AUC=0.9777, TPR=0.9471, TNR=0.9108, J=0.8579, Precision=0.9159, F1=0.9313, ConfusionMatrix=
+[[3625  355]
+ [ 216 3868]]
+Epoch 22, Phase val, Loss=0.5167, Acc=0.8445, AUC=0.8050, TPR=0.4876, TNR=0.9116, J=0.3991, Precision=0.5087, F1=0.4979, ConfusionMatrix=
+[[2340  227]
+ [ 247  235]]
+Epoch complete in 44.85
+
+Epoch 23, Phase train, Loss=0.1703, Acc=0.9356, AUC=0.9806, TPR=0.9497, TNR=0.9217, J=0.8714, Precision=0.9232, F1=0.9363, ConfusionMatrix=
+[[3733  317]
+ [ 202 3812]]
+Epoch 23, Phase val, Loss=0.5931, Acc=0.7940, AUC=0.8024, TPR=0.6307, TNR=0.8247, J=0.4554, Precision=0.4032, F1=0.4919, ConfusionMatrix=
+[[2117  450]
+ [ 178  304]]
+Epoch complete in 43.24
+
+Epoch 24, Phase train, Loss=0.1541, Acc=0.9413, AUC=0.9839, TPR=0.9574, TNR=0.9252, J=0.8826, Precision=0.9278, F1=0.9424, ConfusionMatrix=
+[[3725  301]
+ [ 172 3866]]
+Epoch 24, Phase val, Loss=0.5772, Acc=0.8281, AUC=0.8185, TPR=0.5934, TNR=0.8722, J=0.4656, Precision=0.4658, F1=0.5219, ConfusionMatrix=
+[[2239  328]
+ [ 196  286]]
+Epoch complete in 43.86
+
+Epoch 25, Phase train, Loss=0.1533, Acc=0.9404, AUC=0.9840, TPR=0.9579, TNR=0.9233, J=0.8812, Precision=0.9237, F1=0.9405, ConfusionMatrix=
+[[3781  314]
+ [ 167 3802]]
+Epoch 25, Phase val, Loss=0.5434, Acc=0.8452, AUC=0.8221, TPR=0.6037, TNR=0.8905, J=0.4943, Precision=0.5087, F1=0.5522, ConfusionMatrix=
+[[2286  281]
+ [ 191  291]]
+Epoch complete in 42.04
+
+Epoch 26, Phase train, Loss=0.1498, Acc=0.9442, AUC=0.9849, TPR=0.9571, TNR=0.9311, J=0.8882, Precision=0.9337, F1=0.9453, ConfusionMatrix=
+[[3729  276]
+ [ 174 3885]]
+Epoch 26, Phase val, Loss=0.5673, Acc=0.8504, AUC=0.8035, TPR=0.4938, TNR=0.9174, J=0.4112, Precision=0.5289, F1=0.5107, ConfusionMatrix=
+[[2355  212]
+ [ 244  238]]
+Epoch complete in 41.32
+
+Epoch 27, Phase train, Loss=0.1470, Acc=0.9436, AUC=0.9856, TPR=0.9569, TNR=0.9308, J=0.8877, Precision=0.9298, F1=0.9432, ConfusionMatrix=
+[[3832  285]
+ [ 170 3777]]
+Epoch 27, Phase val, Loss=0.5274, Acc=0.8432, AUC=0.8078, TPR=0.4938, TNR=0.9088, J=0.4026, Precision=0.5042, F1=0.4990, ConfusionMatrix=
+[[2333  234]
+ [ 244  238]]
+Epoch complete in 41.19
+
+Epoch 28, Phase train, Loss=0.1354, Acc=0.9480, AUC=0.9876, TPR=0.9576, TNR=0.9388, J=0.8964, Precision=0.9380, F1=0.9477, ConfusionMatrix=
+[[3849  251]
+ [ 168 3796]]
+Epoch 28, Phase val, Loss=0.6583, Acc=0.7983, AUC=0.8156, TPR=0.6701, TNR=0.8224, J=0.4925, Precision=0.4146, F1=0.5123, ConfusionMatrix=
+[[2111  456]
+ [ 159  323]]
+Epoch complete in 43.13
+
+Epoch 29, Phase train, Loss=0.1203, Acc=0.9581, AUC=0.9896, TPR=0.9716, TNR=0.9449, J=0.9165, Precision=0.9450, F1=0.9581, ConfusionMatrix=
+[[3858  225]
+ [ 113 3868]]
+Epoch 29, Phase val, Loss=0.6094, Acc=0.8426, AUC=0.8170, TPR=0.5124, TNR=0.9046, J=0.4170, Precision=0.5020, F1=0.5072, ConfusionMatrix=
+[[2322  245]
+ [ 235  247]]
+Epoch complete in 43.07
+
+Epoch 30, Phase train, Loss=0.1097, Acc=0.9602, AUC=0.9915, TPR=0.9736, TNR=0.9466, J=0.9202, Precision=0.9486, F1=0.9610, ConfusionMatrix=
+[[3791  214]
+ [ 107 3952]]
+Epoch 30, Phase val, Loss=0.5893, Acc=0.8541, AUC=0.8182, TPR=0.5021, TNR=0.9201, J=0.4222, Precision=0.5414, F1=0.5210, ConfusionMatrix=
+[[2362  205]
+ [ 240  242]]
+Epoch complete in 42.78
+
+Epoch 31, Phase train, Loss=0.1275, Acc=0.9547, AUC=0.9886, TPR=0.9676, TNR=0.9421, J=0.9096, Precision=0.9429, F1=0.9550, ConfusionMatrix=
+[[3822  235]
+ [ 130 3877]]
+Epoch 31, Phase val, Loss=0.5809, Acc=0.8390, AUC=0.8137, TPR=0.4523, TNR=0.9116, J=0.3639, Precision=0.4899, F1=0.4703, ConfusionMatrix=
+[[2340  227]
+ [ 264  218]]
+Epoch complete in 44.90
+
+Epoch 32, Phase train, Loss=0.1116, Acc=0.9609, AUC=0.9911, TPR=0.9701, TNR=0.9516, J=0.9217, Precision=0.9535, F1=0.9617, ConfusionMatrix=
+[[3794  193]
+ [ 122 3955]]
+Epoch 32, Phase val, Loss=0.5300, Acc=0.8649, AUC=0.8291, TPR=0.4896, TNR=0.9353, J=0.4250, Precision=0.5871, F1=0.5339, ConfusionMatrix=
+[[2401  166]
+ [ 246  236]]
+Epoch complete in 43.14
+
+Epoch 33, Phase train, Loss=0.1041, Acc=0.9628, AUC=0.9926, TPR=0.9718, TNR=0.9541, J=0.9260, Precision=0.9530, F1=0.9623, ConfusionMatrix=
+[[3933  189]
+ [ 111 3831]]
+Epoch 33, Phase val, Loss=0.6554, Acc=0.8117, AUC=0.8060, TPR=0.5851, TNR=0.8543, J=0.4394, Precision=0.4299, F1=0.4956, ConfusionMatrix=
+[[2193  374]
+ [ 200  282]]
+Epoch complete in 42.43
+
+Epoch 34, Phase train, Loss=0.1084, Acc=0.9612, AUC=0.9916, TPR=0.9675, TNR=0.9547, J=0.9223, Precision=0.9560, F1=0.9617, ConfusionMatrix=
+[[3816  181]
+ [ 132 3935]]
+Epoch 34, Phase val, Loss=0.6001, Acc=0.8613, AUC=0.8344, TPR=0.6017, TNR=0.9100, J=0.5117, Precision=0.5566, F1=0.5783, ConfusionMatrix=
+[[2336  231]
+ [ 192  290]]
+Epoch complete in 43.14
+
+Epoch 35, Phase train, Loss=0.0981, Acc=0.9637, AUC=0.9931, TPR=0.9741, TNR=0.9533, J=0.9274, Precision=0.9540, F1=0.9639, ConfusionMatrix=
+[[3854  189]
+ [ 104 3917]]
+Epoch 35, Phase val, Loss=0.5661, Acc=0.8580, AUC=0.8328, TPR=0.5747, TNR=0.9112, J=0.4859, Precision=0.5485, F1=0.5613, ConfusionMatrix=
+[[2339  228]
+ [ 205  277]]
+Epoch complete in 45.40
+
+Epoch 36, Phase train, Loss=0.0882, Acc=0.9685, AUC=0.9940, TPR=0.9795, TNR=0.9577, J=0.9372, Precision=0.9579, F1=0.9686, ConfusionMatrix=
+[[3892  172]
+ [  82 3918]]
+Epoch 36, Phase val, Loss=0.6599, Acc=0.8452, AUC=0.7982, TPR=0.4129, TNR=0.9264, J=0.3392, Precision=0.5129, F1=0.4575, ConfusionMatrix=
+[[2378  189]
+ [ 283  199]]
+Epoch complete in 44.29
+
+Epoch 37, Phase train, Loss=0.0960, Acc=0.9666, AUC=0.9935, TPR=0.9726, TNR=0.9606, J=0.9332, Precision=0.9615, F1=0.9670, ConfusionMatrix=
+[[3849  158]
+ [ 111 3946]]
+Epoch 37, Phase val, Loss=0.6345, Acc=0.8675, AUC=0.8219, TPR=0.5353, TNR=0.9299, J=0.4651, Precision=0.5890, F1=0.5609, ConfusionMatrix=
+[[2387  180]
+ [ 224  258]]
+Epoch complete in 43.63
+
+Epoch 38, Phase train, Loss=0.0844, Acc=0.9701, AUC=0.9948, TPR=0.9755, TNR=0.9650, J=0.9404, Precision=0.9640, F1=0.9697, ConfusionMatrix=
+[[3965  144]
+ [  97 3858]]
+Epoch 38, Phase val, Loss=0.6472, Acc=0.8481, AUC=0.8103, TPR=0.5228, TNR=0.9092, J=0.4321, Precision=0.5196, F1=0.5212, ConfusionMatrix=
+[[2334  233]
+ [ 230  252]]
+Epoch complete in 43.05
+
+Epoch 39, Phase train, Loss=0.0846, Acc=0.9731, AUC=0.9943, TPR=0.9789, TNR=0.9674, J=0.9462, Precision=0.9675, F1=0.9732, ConfusionMatrix=
+[[3912  132]
+ [  85 3935]]
+Epoch 39, Phase val, Loss=0.6493, Acc=0.8491, AUC=0.7873, TPR=0.4336, TNR=0.9272, J=0.3608, Precision=0.5278, F1=0.4761, ConfusionMatrix=
+[[2380  187]
+ [ 273  209]]
+Epoch complete in 44.61
+
+Epoch 40, Phase train, Loss=0.0611, Acc=0.9807, AUC=0.9969, TPR=0.9875, TNR=0.9738, J=0.9614, Precision=0.9740, F1=0.9807, ConfusionMatrix=
+[[3942  106]
+ [  50 3966]]
+Epoch 40, Phase val, Loss=0.6448, Acc=0.8600, AUC=0.8077, TPR=0.5249, TNR=0.9229, J=0.4478, Precision=0.5610, F1=0.5423, ConfusionMatrix=
+[[2369  198]
+ [ 229  253]]
+Epoch complete in 44.07
+
+Epoch 41, Phase train, Loss=0.0421, Acc=0.9864, AUC=0.9984, TPR=0.9937, TNR=0.9787, J=0.9724, Precision=0.9799, F1=0.9867, ConfusionMatrix=
+[[3867   84]
+ [  26 4087]]
+Epoch 41, Phase val, Loss=0.6654, Acc=0.8645, AUC=0.8087, TPR=0.4647, TNR=0.9396, J=0.4043, Precision=0.5910, F1=0.5203, ConfusionMatrix=
+[[2412  155]
+ [ 258  224]]
+Epoch complete in 43.65
+
+Epoch 42, Phase train, Loss=0.0378, Acc=0.9887, AUC=0.9984, TPR=0.9966, TNR=0.9806, J=0.9771, Precision=0.9815, F1=0.9890, ConfusionMatrix=
+[[3884   77]
+ [  14 4089]]
+Epoch 42, Phase val, Loss=0.6853, Acc=0.8691, AUC=0.8210, TPR=0.4647, TNR=0.9451, J=0.4098, Precision=0.6137, F1=0.5289, ConfusionMatrix=
+[[2426  141]
+ [ 258  224]]
+Epoch complete in 43.49
+
+Epoch 43, Phase train, Loss=0.0342, Acc=0.9903, AUC=0.9985, TPR=0.9958, TNR=0.9849, J=0.9806, Precision=0.9850, F1=0.9904, ConfusionMatrix=
+[[3968   61]
+ [  17 4018]]
+Epoch 43, Phase val, Loss=0.7017, Acc=0.8695, AUC=0.8133, TPR=0.4730, TNR=0.9439, J=0.4169, Precision=0.6129, F1=0.5340, ConfusionMatrix=
+[[2423  144]
+ [ 254  228]]
+Epoch complete in 41.98
+
+Epoch 44, Phase train, Loss=0.0301, Acc=0.9917, AUC=0.9986, TPR=0.9956, TNR=0.9877, J=0.9833, Precision=0.9881, F1=0.9918, ConfusionMatrix=
+[[3936   49]
+ [  18 4061]]
+Epoch 44, Phase val, Loss=0.7247, Acc=0.8695, AUC=0.8102, TPR=0.4876, TNR=0.9412, J=0.4287, Precision=0.6088, F1=0.5415, ConfusionMatrix=
+[[2416  151]
+ [ 247  235]]
+Epoch complete in 42.43
+
+Epoch 45, Phase train, Loss=0.0226, Acc=0.9942, AUC=0.9995, TPR=0.9980, TNR=0.9903, J=0.9883, Precision=0.9905, F1=0.9942, ConfusionMatrix=
+[[3967   39]
+ [   8 4050]]
+Epoch 45, Phase val, Loss=0.7465, Acc=0.8682, AUC=0.8117, TPR=0.4461, TNR=0.9474, J=0.3935, Precision=0.6143, F1=0.5168, ConfusionMatrix=
+[[2432  135]
+ [ 267  215]]
+Epoch complete in 43.92
+
+Epoch 46, Phase train, Loss=0.0219, Acc=0.9947, AUC=0.9990, TPR=0.9980, TNR=0.9913, J=0.9893, Precision=0.9914, F1=0.9947, ConfusionMatrix=
+[[3984   35]
+ [   8 4037]]
+Epoch 46, Phase val, Loss=0.7794, Acc=0.8731, AUC=0.8146, TPR=0.4606, TNR=0.9505, J=0.4111, Precision=0.6361, F1=0.5343, ConfusionMatrix=
+[[2440  127]
+ [ 260  222]]
+Epoch complete in 44.13
+
+Epoch 47, Phase train, Loss=0.0254, Acc=0.9921, AUC=0.9991, TPR=0.9963, TNR=0.9878, J=0.9841, Precision=0.9880, F1=0.9921, ConfusionMatrix=
+[[3970   49]
+ [  15 4030]]
+Epoch 47, Phase val, Loss=0.7709, Acc=0.8701, AUC=0.8145, TPR=0.4772, TNR=0.9439, J=0.4211, Precision=0.6150, F1=0.5374, ConfusionMatrix=
+[[2423  144]
+ [ 252  230]]
+Epoch complete in 44.14
+
+Epoch 48, Phase train, Loss=0.0198, Acc=0.9944, AUC=0.9995, TPR=0.9968, TNR=0.9920, J=0.9888, Precision=0.9922, F1=0.9945, ConfusionMatrix=
+[[3969   32]
+ [  13 4050]]
+Epoch 48, Phase val, Loss=0.7797, Acc=0.8655, AUC=0.8028, TPR=0.4149, TNR=0.9501, J=0.3651, Precision=0.6098, F1=0.4938, ConfusionMatrix=
+[[2439  128]
+ [ 282  200]]
+Epoch complete in 41.24
+
+Epoch 49, Phase train, Loss=0.0216, Acc=0.9939, AUC=0.9993, TPR=0.9970, TNR=0.9909, J=0.9879, Precision=0.9908, F1=0.9939, ConfusionMatrix=
+[[4041   37]
+ [  12 3974]]
+Epoch 49, Phase val, Loss=0.7828, Acc=0.8649, AUC=0.8124, TPR=0.4627, TNR=0.9404, J=0.4031, Precision=0.5931, F1=0.5198, ConfusionMatrix=
+[[2414  153]
+ [ 259  223]]
+Epoch complete in 41.86
+
+Epoch 50, Phase train, Loss=0.0195, Acc=0.9944, AUC=0.9993, TPR=0.9970, TNR=0.9919, J=0.9889, Precision=0.9918, F1=0.9944, ConfusionMatrix=
+[[4050   33]
+ [  12 3969]]
+Epoch 50, Phase val, Loss=0.7657, Acc=0.8708, AUC=0.8205, TPR=0.4419, TNR=0.9513, J=0.3932, Precision=0.6302, F1=0.5195, ConfusionMatrix=
+[[2442  125]
+ [ 269  213]]
+Epoch complete in 40.34
+
+Epoch 51, Phase train, Loss=0.0172, Acc=0.9953, AUC=0.9993, TPR=0.9970, TNR=0.9936, J=0.9906, Precision=0.9935, F1=0.9952, ConfusionMatrix=
+[[4058   26]
+ [  12 3968]]
+Epoch 51, Phase val, Loss=0.7929, Acc=0.8593, AUC=0.8081, TPR=0.3651, TNR=0.9521, J=0.3172, Precision=0.5886, F1=0.4507, ConfusionMatrix=
+[[2444  123]
+ [ 306  176]]
+Epoch complete in 41.68
+
+Epoch 52, Phase train, Loss=0.0164, Acc=0.9962, AUC=0.9995, TPR=0.9987, TNR=0.9936, J=0.9924, Precision=0.9935, F1=0.9961, ConfusionMatrix=
+[[4068   26]
+ [   5 3965]]
+Epoch 52, Phase val, Loss=0.8085, Acc=0.8649, AUC=0.8114, TPR=0.3880, TNR=0.9544, J=0.3424, Precision=0.6151, F1=0.4758, ConfusionMatrix=
+[[2450  117]
+ [ 295  187]]
+Epoch complete in 43.16
+
+Epoch 53, Phase train, Loss=0.0196, Acc=0.9954, AUC=0.9991, TPR=0.9978, TNR=0.9930, J=0.9908, Precision=0.9931, F1=0.9954, ConfusionMatrix=
+[[3996   28]
+ [   9 4031]]
+Epoch 53, Phase val, Loss=0.8142, Acc=0.8649, AUC=0.8087, TPR=0.3963, TNR=0.9529, J=0.3491, Precision=0.6122, F1=0.4811, ConfusionMatrix=
+[[2446  121]
+ [ 291  191]]
+Epoch complete in 46.33
+
+Epoch 54, Phase train, Loss=0.0139, Acc=0.9959, AUC=0.9998, TPR=0.9970, TNR=0.9948, J=0.9918, Precision=0.9948, F1=0.9959, ConfusionMatrix=
+[[3982   21]
+ [  12 4049]]
+Epoch 54, Phase val, Loss=0.8102, Acc=0.8672, AUC=0.8131, TPR=0.4544, TNR=0.9447, J=0.3990, Precision=0.6066, F1=0.5196, ConfusionMatrix=
+[[2425  142]
+ [ 263  219]]
+Epoch complete in 44.54
+
+Epoch 55, Phase train, Loss=0.0169, Acc=0.9957, AUC=0.9994, TPR=0.9978, TNR=0.9934, J=0.9912, Precision=0.9937, F1=0.9958, ConfusionMatrix=
+[[3907   26]
+ [   9 4122]]
+Epoch 55, Phase val, Loss=0.8303, Acc=0.8672, AUC=0.8121, TPR=0.4544, TNR=0.9447, J=0.3990, Precision=0.6066, F1=0.5196, ConfusionMatrix=
+[[2425  142]
+ [ 263  219]]
+Epoch complete in 45.12
+
+Epoch 56, Phase train, Loss=0.0149, Acc=0.9963, AUC=0.9997, TPR=0.9973, TNR=0.9953, J=0.9926, Precision=0.9953, F1=0.9963, ConfusionMatrix=
+[[4043   19]
+ [  11 3991]]
+Epoch 56, Phase val, Loss=0.8397, Acc=0.8688, AUC=0.8090, TPR=0.4274, TNR=0.9517, J=0.3791, Precision=0.6242, F1=0.5074, ConfusionMatrix=
+[[2443  124]
+ [ 276  206]]
+Epoch complete in 42.56
+
+Epoch 57, Phase train, Loss=0.0152, Acc=0.9962, AUC=0.9995, TPR=0.9977, TNR=0.9946, J=0.9923, Precision=0.9945, F1=0.9961, ConfusionMatrix=
+[[4044   22]
+ [   9 3989]]
+Epoch 57, Phase val, Loss=0.8306, Acc=0.8695, AUC=0.8111, TPR=0.4502, TNR=0.9482, J=0.3984, Precision=0.6200, F1=0.5216, ConfusionMatrix=
+[[2434  133]
+ [ 265  217]]
+Epoch complete in 43.92
+
+Epoch 58, Phase train, Loss=0.0139, Acc=0.9964, AUC=0.9996, TPR=0.9976, TNR=0.9952, J=0.9928, Precision=0.9954, F1=0.9965, ConfusionMatrix=
+[[3933   19]
+ [  10 4102]]
+Epoch 58, Phase val, Loss=0.8391, Acc=0.8665, AUC=0.8099, TPR=0.4253, TNR=0.9494, J=0.3747, Precision=0.6119, F1=0.5018, ConfusionMatrix=
+[[2437  130]
+ [ 277  205]]
+Epoch complete in 43.69
+
+Epoch 59, Phase train, Loss=0.0161, Acc=0.9964, AUC=0.9993, TPR=0.9975, TNR=0.9953, J=0.9928, Precision=0.9953, F1=0.9964, ConfusionMatrix=
+[[4003   19]
+ [  10 4032]]
+Epoch 59, Phase val, Loss=0.8733, Acc=0.8632, AUC=0.8009, TPR=0.4232, TNR=0.9459, J=0.3691, Precision=0.5948, F1=0.4945, ConfusionMatrix=
+[[2428  139]
+ [ 278  204]]
+Epoch complete in 43.62
+
+Epoch 60, Phase train, Loss=0.0133, Acc=0.9962, AUC=0.9998, TPR=0.9975, TNR=0.9948, J=0.9923, Precision=0.9948, F1=0.9962, ConfusionMatrix=
+[[3985   21]
+ [  10 4048]]
+Epoch 60, Phase val, Loss=0.8508, Acc=0.8721, AUC=0.8118, TPR=0.4606, TNR=0.9494, J=0.4099, Precision=0.6307, F1=0.5324, ConfusionMatrix=
+[[2437  130]
+ [ 260  222]]
+Epoch complete in 44.78
+
+Epoch 61, Phase train, Loss=0.0198, Acc=0.9960, AUC=0.9992, TPR=0.9980, TNR=0.9940, J=0.9920, Precision=0.9942, F1=0.9961, ConfusionMatrix=
+[[3952   24]
+ [   8 4080]]
+Epoch 61, Phase val, Loss=0.8399, Acc=0.8636, AUC=0.7988, TPR=0.4087, TNR=0.9490, J=0.3577, Precision=0.6006, F1=0.4864, ConfusionMatrix=
+[[2436  131]
+ [ 285  197]]
+Epoch complete in 43.46
+
+Epoch 62, Phase train, Loss=0.0128, Acc=0.9973, AUC=0.9995, TPR=0.9985, TNR=0.9960, J=0.9945, Precision=0.9960, F1=0.9973, ConfusionMatrix=
+[[4022   16]
+ [   6 4020]]
+Epoch 62, Phase val, Loss=0.8264, Acc=0.8636, AUC=0.8077, TPR=0.4398, TNR=0.9431, J=0.3830, Precision=0.5922, F1=0.5048, ConfusionMatrix=
+[[2421  146]
+ [ 270  212]]
+Epoch complete in 41.87
+
+Epoch 63, Phase train, Loss=0.0138, Acc=0.9969, AUC=0.9995, TPR=0.9978, TNR=0.9959, J=0.9938, Precision=0.9961, F1=0.9970, ConfusionMatrix=
+[[3922   16]
+ [   9 4117]]
+Epoch 63, Phase val, Loss=0.8358, Acc=0.8652, AUC=0.8061, TPR=0.4149, TNR=0.9497, J=0.3647, Precision=0.6079, F1=0.4932, ConfusionMatrix=
+[[2438  129]
+ [ 282  200]]
+Epoch complete in 40.77
+
+Epoch 64, Phase train, Loss=0.0121, Acc=0.9964, AUC=0.9999, TPR=0.9982, TNR=0.9947, J=0.9929, Precision=0.9944, F1=0.9963, ConfusionMatrix=
+[[4094   22]
+ [   7 3941]]
+Epoch 64, Phase val, Loss=0.8525, Acc=0.8639, AUC=0.8025, TPR=0.3859, TNR=0.9536, J=0.3395, Precision=0.6098, F1=0.4727, ConfusionMatrix=
+[[2448  119]
+ [ 296  186]]
+Epoch complete in 44.69
+
+Epoch 65, Phase train, Loss=0.0138, Acc=0.9967, AUC=0.9995, TPR=0.9980, TNR=0.9953, J=0.9933, Precision=0.9953, F1=0.9967, ConfusionMatrix=
+[[4016   19]
+ [   8 4021]]
+Epoch 65, Phase val, Loss=0.8768, Acc=0.8691, AUC=0.8084, TPR=0.4336, TNR=0.9509, J=0.3845, Precision=0.6239, F1=0.5116, ConfusionMatrix=
+[[2441  126]
+ [ 273  209]]
+Epoch complete in 44.39
+
+Epoch 66, Phase train, Loss=0.0123, Acc=0.9962, AUC=0.9998, TPR=0.9980, TNR=0.9943, J=0.9923, Precision=0.9943, F1=0.9962, ConfusionMatrix=
+[[4018   23]
+ [   8 4015]]
+Epoch 66, Phase val, Loss=0.8659, Acc=0.8632, AUC=0.8008, TPR=0.3880, TNR=0.9525, J=0.3404, Precision=0.6052, F1=0.4728, ConfusionMatrix=
+[[2445  122]
+ [ 295  187]]
+Epoch complete in 43.96
+
+Epoch 67, Phase train, Loss=0.0104, Acc=0.9973, AUC=0.9998, TPR=0.9975, TNR=0.9971, J=0.9945, Precision=0.9970, F1=0.9972, ConfusionMatrix=
+[[4064   12]
+ [  10 3978]]
+Epoch 67, Phase val, Loss=0.8911, Acc=0.8616, AUC=0.8024, TPR=0.4046, TNR=0.9474, J=0.3520, Precision=0.5909, F1=0.4803, ConfusionMatrix=
+[[2432  135]
+ [ 287  195]]
+Epoch complete in 47.77
+
+Epoch 68, Phase train, Loss=0.0104, Acc=0.9976, AUC=0.9998, TPR=0.9995, TNR=0.9958, J=0.9953, Precision=0.9958, F1=0.9976, ConfusionMatrix=
+[[4056   17]
+ [   2 3989]]
+Epoch 68, Phase val, Loss=0.8736, Acc=0.8649, AUC=0.8027, TPR=0.3900, TNR=0.9540, J=0.3441, Precision=0.6144, F1=0.4772, ConfusionMatrix=
+[[2449  118]
+ [ 294  188]]
+Epoch complete in 42.68
+
+Epoch 69, Phase train, Loss=0.0127, Acc=0.9973, AUC=0.9996, TPR=0.9988, TNR=0.9957, J=0.9945, Precision=0.9958, F1=0.9973, ConfusionMatrix=
+[[3964   17]
+ [   5 4078]]
+Epoch 69, Phase val, Loss=0.8813, Acc=0.8652, AUC=0.8023, TPR=0.4004, TNR=0.9525, J=0.3529, Precision=0.6127, F1=0.4843, ConfusionMatrix=
+[[2445  122]
+ [ 289  193]]
+Epoch complete in 42.80
+
+Epoch 70, Phase train, Loss=0.0167, Acc=0.9962, AUC=0.9995, TPR=0.9978, TNR=0.9946, J=0.9923, Precision=0.9945, F1=0.9961, ConfusionMatrix=
+[[4041   22]
+ [   9 3992]]
+Epoch 70, Phase val, Loss=0.8896, Acc=0.8691, AUC=0.7957, TPR=0.4129, TNR=0.9548, J=0.3677, Precision=0.6317, F1=0.4994, ConfusionMatrix=
+[[2451  116]
+ [ 283  199]]
+Epoch complete in 40.85
+
+Epoch 71, Phase train, Loss=0.0128, Acc=0.9969, AUC=0.9997, TPR=0.9985, TNR=0.9954, J=0.9938, Precision=0.9952, F1=0.9969, ConfusionMatrix=
+[[4071   19]
+ [   6 3968]]
+Epoch 71, Phase val, Loss=0.8901, Acc=0.8645, AUC=0.8034, TPR=0.4232, TNR=0.9474, J=0.3706, Precision=0.6018, F1=0.4970, ConfusionMatrix=
+[[2432  135]
+ [ 278  204]]
+Epoch complete in 44.79
+
+Epoch 72, Phase train, Loss=0.0093, Acc=0.9979, AUC=0.9998, TPR=0.9990, TNR=0.9968, J=0.9958, Precision=0.9967, F1=0.9979, ConfusionMatrix=
+[[4097   13]
+ [   4 3950]]
+Epoch 72, Phase val, Loss=0.8942, Acc=0.8652, AUC=0.8040, TPR=0.4108, TNR=0.9505, J=0.3613, Precision=0.6092, F1=0.4907, ConfusionMatrix=
+[[2440  127]
+ [ 284  198]]
+Epoch complete in 44.84
+
+Epoch 73, Phase train, Loss=0.0110, Acc=0.9974, AUC=0.9998, TPR=0.9990, TNR=0.9958, J=0.9948, Precision=0.9957, F1=0.9974, ConfusionMatrix=
+[[4068   17]
+ [   4 3975]]
+Epoch 73, Phase val, Loss=0.8824, Acc=0.8629, AUC=0.8069, TPR=0.3983, TNR=0.9501, J=0.3485, Precision=0.6000, F1=0.4788, ConfusionMatrix=
+[[2439  128]
+ [ 290  192]]
+Epoch complete in 41.95
+
+Epoch 74, Phase train, Loss=0.0101, Acc=0.9973, AUC=0.9998, TPR=0.9988, TNR=0.9958, J=0.9945, Precision=0.9958, F1=0.9973, ConfusionMatrix=
+[[3989   17]
+ [   5 4053]]
+Epoch 74, Phase val, Loss=0.8984, Acc=0.8645, AUC=0.8084, TPR=0.4315, TNR=0.9459, J=0.3774, Precision=0.5994, F1=0.5018, ConfusionMatrix=
+[[2428  139]
+ [ 274  208]]
+Epoch complete in 43.20
+
+Epoch 75, Phase train, Loss=0.0103, Acc=0.9967, AUC=0.9999, TPR=0.9978, TNR=0.9955, J=0.9933, Precision=0.9956, F1=0.9967, ConfusionMatrix=
+[[3985   18]
+ [   9 4052]]
+Epoch 75, Phase val, Loss=0.9049, Acc=0.8619, AUC=0.7956, TPR=0.3880, TNR=0.9509, J=0.3389, Precision=0.5974, F1=0.4704, ConfusionMatrix=
+[[2441  126]
+ [ 295  187]]
+Epoch complete in 45.47
+
+Epoch 76, Phase train, Loss=0.0110, Acc=0.9970, AUC=0.9999, TPR=0.9980, TNR=0.9960, J=0.9940, Precision=0.9961, F1=0.9970, ConfusionMatrix=
+[[3990   16]
+ [   8 4050]]
+Epoch 76, Phase val, Loss=0.9215, Acc=0.8672, AUC=0.8066, TPR=0.4149, TNR=0.9521, J=0.3670, Precision=0.6192, F1=0.4969, ConfusionMatrix=
+[[2444  123]
+ [ 282  200]]
+Epoch complete in 43.27
+
+Epoch 77, Phase train, Loss=0.0139, Acc=0.9962, AUC=0.9998, TPR=0.9970, TNR=0.9953, J=0.9923, Precision=0.9953, F1=0.9962, ConfusionMatrix=
+[[3985   19]
+ [  12 4048]]
+Epoch 77, Phase val, Loss=0.9077, Acc=0.8655, AUC=0.8068, TPR=0.4232, TNR=0.9486, J=0.3718, Precision=0.6071, F1=0.4988, ConfusionMatrix=
+[[2435  132]
+ [ 278  204]]
+Epoch complete in 42.68
+
+Epoch 78, Phase train, Loss=0.0111, Acc=0.9969, AUC=0.9999, TPR=0.9978, TNR=0.9960, J=0.9938, Precision=0.9961, F1=0.9969, ConfusionMatrix=
+[[3989   16]
+ [   9 4050]]
+Epoch 78, Phase val, Loss=0.8874, Acc=0.8672, AUC=0.8045, TPR=0.4170, TNR=0.9517, J=0.3687, Precision=0.6185, F1=0.4981, ConfusionMatrix=
+[[2443  124]
+ [ 281  201]]
+Epoch complete in 42.65
+
+Epoch 79, Phase train, Loss=0.0108, Acc=0.9968, AUC=0.9999, TPR=0.9983, TNR=0.9953, J=0.9936, Precision=0.9953, F1=0.9968, ConfusionMatrix=
+[[4026   19]
+ [   7 4012]]
+Epoch 79, Phase val, Loss=0.9094, Acc=0.8691, AUC=0.8001, TPR=0.4295, TNR=0.9517, J=0.3812, Precision=0.6254, F1=0.5092, ConfusionMatrix=
+[[2443  124]
+ [ 275  207]]
+Epoch complete in 43.35
+
+Epoch 80, Phase train, Loss=0.0086, Acc=0.9978, AUC=0.9999, TPR=0.9987, TNR=0.9968, J=0.9956, Precision=0.9967, F1=0.9977, ConfusionMatrix=
+[[4109   13]
+ [   5 3937]]
+Epoch 80, Phase val, Loss=0.9004, Acc=0.8649, AUC=0.7997, TPR=0.4295, TNR=0.9466, J=0.3761, Precision=0.6017, F1=0.5012, ConfusionMatrix=
+[[2430  137]
+ [ 275  207]]
+Epoch complete in 45.24
+
+Epoch 81, Phase train, Loss=0.0107, Acc=0.9971, AUC=0.9997, TPR=0.9983, TNR=0.9960, J=0.9943, Precision=0.9960, F1=0.9971, ConfusionMatrix=
+[[4033   16]
+ [   7 4008]]
+Epoch 81, Phase val, Loss=0.9045, Acc=0.8668, AUC=0.8021, TPR=0.4170, TNR=0.9513, J=0.3683, Precision=0.6166, F1=0.4975, ConfusionMatrix=
+[[2442  125]
+ [ 281  201]]
+Epoch complete in 41.94
+
+Epoch 82, Phase train, Loss=0.0152, Acc=0.9957, AUC=0.9996, TPR=0.9978, TNR=0.9935, J=0.9913, Precision=0.9937, F1=0.9957, ConfusionMatrix=
+[[3952   26]
+ [   9 4077]]
+Epoch 82, Phase val, Loss=0.9044, Acc=0.8659, AUC=0.8021, TPR=0.3983, TNR=0.9536, J=0.3520, Precision=0.6174, F1=0.4842, ConfusionMatrix=
+[[2448  119]
+ [ 290  192]]
+Epoch complete in 43.90
+
+Epoch 83, Phase train, Loss=0.0091, Acc=0.9980, AUC=0.9998, TPR=0.9995, TNR=0.9965, J=0.9960, Precision=0.9965, F1=0.9980, ConfusionMatrix=
+[[4032   14]
+ [   2 4016]]
+Epoch 83, Phase val, Loss=0.9082, Acc=0.8665, AUC=0.8027, TPR=0.4191, TNR=0.9505, J=0.3696, Precision=0.6140, F1=0.4982, ConfusionMatrix=
+[[2440  127]
+ [ 280  202]]
+Epoch complete in 41.89
+
+Epoch 84, Phase train, Loss=0.0066, Acc=0.9983, AUC=1.0000, TPR=0.9995, TNR=0.9970, J=0.9965, Precision=0.9971, F1=0.9983, ConfusionMatrix=
+[[3978   12]
+ [   2 4072]]
+Epoch 84, Phase val, Loss=0.9146, Acc=0.8652, AUC=0.8033, TPR=0.4087, TNR=0.9509, J=0.3596, Precision=0.6099, F1=0.4894, ConfusionMatrix=
+[[2441  126]
+ [ 285  197]]
+Epoch complete in 43.25
+
+Epoch 85, Phase train, Loss=0.0090, Acc=0.9975, AUC=0.9999, TPR=0.9988, TNR=0.9963, J=0.9950, Precision=0.9963, F1=0.9975, ConfusionMatrix=
+[[4004   15]
+ [   5 4040]]
+Epoch 85, Phase val, Loss=0.9029, Acc=0.8642, AUC=0.8033, TPR=0.4129, TNR=0.9490, J=0.3618, Precision=0.6030, F1=0.4901, ConfusionMatrix=
+[[2436  131]
+ [ 283  199]]
+Epoch complete in 42.34
+
+Epoch 86, Phase train, Loss=0.0096, Acc=0.9975, AUC=0.9999, TPR=0.9998, TNR=0.9953, J=0.9950, Precision=0.9953, F1=0.9975, ConfusionMatrix=
+[[4007   19]
+ [   1 4037]]
+Epoch 86, Phase val, Loss=0.9190, Acc=0.8668, AUC=0.8032, TPR=0.4108, TNR=0.9525, J=0.3633, Precision=0.6188, F1=0.4938, ConfusionMatrix=
+[[2445  122]
+ [ 284  198]]
+Epoch complete in 41.77
+
+Epoch 87, Phase train, Loss=0.0083, Acc=0.9980, AUC=0.9999, TPR=0.9995, TNR=0.9965, J=0.9960, Precision=0.9966, F1=0.9981, ConfusionMatrix=
+[[3937   14]
+ [   2 4111]]
+Epoch 87, Phase val, Loss=0.9252, Acc=0.8675, AUC=0.8011, TPR=0.4087, TNR=0.9536, J=0.3624, Precision=0.6234, F1=0.4937, ConfusionMatrix=
+[[2448  119]
+ [ 285  197]]
+Epoch complete in 42.79
+
+Epoch 88, Phase train, Loss=0.0086, Acc=0.9975, AUC=0.9998, TPR=0.9993, TNR=0.9958, J=0.9951, Precision=0.9958, F1=0.9975, ConfusionMatrix=
+[[4034   17]
+ [   3 4010]]
+Epoch 88, Phase val, Loss=0.9154, Acc=0.8652, AUC=0.8019, TPR=0.4170, TNR=0.9494, J=0.3664, Precision=0.6073, F1=0.4945, ConfusionMatrix=
+[[2437  130]
+ [ 281  201]]
+Epoch complete in 43.41
+
+Epoch 89, Phase train, Loss=0.0088, Acc=0.9979, AUC=0.9999, TPR=1.0000, TNR=0.9958, J=0.9958, Precision=0.9958, F1=0.9979, ConfusionMatrix=
+[[4003   17]
+ [   0 4044]]
+Epoch 89, Phase val, Loss=0.9250, Acc=0.8662, AUC=0.8025, TPR=0.4149, TNR=0.9509, J=0.3659, Precision=0.6135, F1=0.4950, ConfusionMatrix=
+[[2441  126]
+ [ 282  200]]
+Epoch complete in 43.39
+
+Epoch 90, Phase train, Loss=0.0098, Acc=0.9975, AUC=0.9997, TPR=0.9998, TNR=0.9953, J=0.9950, Precision=0.9953, F1=0.9975, ConfusionMatrix=
+[[4016   19]
+ [   1 4028]]
+Epoch 90, Phase val, Loss=0.9279, Acc=0.8678, AUC=0.8036, TPR=0.4191, TNR=0.9521, J=0.3712, Precision=0.6215, F1=0.5006, ConfusionMatrix=
+[[2444  123]
+ [ 280  202]]
+Epoch complete in 42.70
+
+Epoch 91, Phase train, Loss=0.0099, Acc=0.9974, AUC=0.9998, TPR=0.9998, TNR=0.9950, J=0.9948, Precision=0.9951, F1=0.9974, ConfusionMatrix=
+[[3987   20]
+ [   1 4056]]
+Epoch 91, Phase val, Loss=0.9210, Acc=0.8672, AUC=0.8028, TPR=0.4170, TNR=0.9517, J=0.3687, Precision=0.6185, F1=0.4981, ConfusionMatrix=
+[[2443  124]
+ [ 281  201]]
+Epoch complete in 65.92
+
+Epoch 92, Phase train, Loss=0.0064, Acc=0.9981, AUC=1.0000, TPR=0.9995, TNR=0.9967, J=0.9963, Precision=0.9968, F1=0.9982, ConfusionMatrix=
+[[3983   13]
+ [   2 4066]]
+Epoch 92, Phase val, Loss=0.9343, Acc=0.8682, AUC=0.8038, TPR=0.4129, TNR=0.9536, J=0.3665, Precision=0.6258, F1=0.4975, ConfusionMatrix=
+[[2448  119]
+ [ 283  199]]
+Epoch complete in 51.26
+
+Epoch 93, Phase train, Loss=0.0077, Acc=0.9978, AUC=1.0000, TPR=0.9995, TNR=0.9960, J=0.9955, Precision=0.9961, F1=0.9978, ConfusionMatrix=
+[[3989   16]
+ [   2 4057]]
+Epoch 93, Phase val, Loss=0.9271, Acc=0.8649, AUC=0.8035, TPR=0.4046, TNR=0.9513, J=0.3559, Precision=0.6094, F1=0.4863, ConfusionMatrix=
+[[2442  125]
+ [ 287  195]]
+Epoch complete in 46.05
+
+Epoch 94, Phase train, Loss=0.0085, Acc=0.9978, AUC=0.9999, TPR=0.9998, TNR=0.9957, J=0.9955, Precision=0.9958, F1=0.9978, ConfusionMatrix=
+[[3971   17]
+ [   1 4075]]
+Epoch 94, Phase val, Loss=0.9310, Acc=0.8642, AUC=0.8028, TPR=0.3900, TNR=0.9533, J=0.3433, Precision=0.6104, F1=0.4759, ConfusionMatrix=
+[[2447  120]
+ [ 294  188]]
+Epoch complete in 43.09
+
+Epoch 95, Phase train, Loss=0.0063, Acc=0.9983, AUC=1.0000, TPR=0.9997, TNR=0.9968, J=0.9966, Precision=0.9967, F1=0.9982, ConfusionMatrix=
+[[4077   13]
+ [   1 3973]]
+Epoch 95, Phase val, Loss=0.9260, Acc=0.8652, AUC=0.8046, TPR=0.4087, TNR=0.9509, J=0.3596, Precision=0.6099, F1=0.4894, ConfusionMatrix=
+[[2441  126]
+ [ 285  197]]
+Epoch complete in 44.12
+
+Epoch 96, Phase train, Loss=0.0101, Acc=0.9970, AUC=0.9999, TPR=0.9998, TNR=0.9942, J=0.9940, Precision=0.9944, F1=0.9971, ConfusionMatrix=
+[[3966   23]
+ [   1 4074]]
+Epoch 96, Phase val, Loss=0.9289, Acc=0.8662, AUC=0.8053, TPR=0.4004, TNR=0.9536, J=0.3541, Precision=0.6186, F1=0.4861, ConfusionMatrix=
+[[2448  119]
+ [ 289  193]]
+Epoch complete in 41.58
+
+Epoch 97, Phase train, Loss=0.0101, Acc=0.9967, AUC=0.9999, TPR=0.9980, TNR=0.9952, J=0.9933, Precision=0.9954, F1=0.9967, ConfusionMatrix=
+[[3968   19]
+ [   8 4069]]
+Epoch 97, Phase val, Loss=0.9384, Acc=0.8662, AUC=0.8058, TPR=0.4066, TNR=0.9525, J=0.3591, Precision=0.6164, F1=0.4900, ConfusionMatrix=
+[[2445  122]
+ [ 286  196]]
+Epoch complete in 43.83
+
+Epoch 98, Phase train, Loss=0.0087, Acc=0.9974, AUC=0.9999, TPR=0.9995, TNR=0.9953, J=0.9948, Precision=0.9953, F1=0.9974, ConfusionMatrix=
+[[4051   19]
+ [   2 3992]]
+Epoch 98, Phase val, Loss=0.9258, Acc=0.8668, AUC=0.8031, TPR=0.4004, TNR=0.9544, J=0.3548, Precision=0.6226, F1=0.4874, ConfusionMatrix=
+[[2450  117]
+ [ 289  193]]
+Epoch complete in 46.81
+
+Epoch 99, Phase train, Loss=0.0083, Acc=0.9975, AUC=0.9999, TPR=0.9998, TNR=0.9953, J=0.9951, Precision=0.9953, F1=0.9975, ConfusionMatrix=
+[[4031   19]
+ [   1 4013]]
+Epoch 99, Phase val, Loss=0.9326, Acc=0.8675, AUC=0.8008, TPR=0.4087, TNR=0.9536, J=0.3624, Precision=0.6234, F1=0.4937, ConfusionMatrix=
+[[2448  119]
+ [ 285  197]]
+Epoch complete in 43.98
+
+Epoch 100, Phase train, Loss=0.0058, Acc=0.9984, AUC=1.0000, TPR=0.9995, TNR=0.9972, J=0.9967, Precision=0.9973, F1=0.9984, ConfusionMatrix=
+[[3972   11]
+ [   2 4079]]
+Epoch 100, Phase val, Loss=0.9224, Acc=0.8665, AUC=0.8021, TPR=0.4129, TNR=0.9517, J=0.3646, Precision=0.6161, F1=0.4944, ConfusionMatrix=
+[[2443  124]
+ [ 283  199]]
+Epoch complete in 42.10
+
+Epoch 101, Phase train, Loss=0.0074, Acc=0.9979, AUC=1.0000, TPR=0.9995, TNR=0.9963, J=0.9958, Precision=0.9963, F1=0.9979, ConfusionMatrix=
+[[4007   15]
+ [   2 4040]]
+Epoch 101, Phase val, Loss=0.9422, Acc=0.8682, AUC=0.8022, TPR=0.4129, TNR=0.9536, J=0.3665, Precision=0.6258, F1=0.4975, ConfusionMatrix=
+[[2448  119]
+ [ 283  199]]
+Epoch complete in 43.29
+
+Epoch 102, Phase train, Loss=0.0092, Acc=0.9976, AUC=0.9999, TPR=1.0000, TNR=0.9952, J=0.9952, Precision=0.9954, F1=0.9977, ConfusionMatrix=
+[[3976   19]
+ [   0 4069]]
+Epoch 102, Phase val, Loss=0.9278, Acc=0.8665, AUC=0.8059, TPR=0.4149, TNR=0.9513, J=0.3662, Precision=0.6154, F1=0.4957, ConfusionMatrix=
+[[2442  125]
+ [ 282  200]]
+Epoch complete in 43.21
+
+Epoch 103, Phase train, Loss=0.0082, Acc=0.9980, AUC=0.9998, TPR=0.9998, TNR=0.9963, J=0.9960, Precision=0.9963, F1=0.9980, ConfusionMatrix=
+[[3986   15]
+ [   1 4062]]
+Epoch 103, Phase val, Loss=0.9409, Acc=0.8668, AUC=0.8052, TPR=0.4087, TNR=0.9529, J=0.3616, Precision=0.6195, F1=0.4925, ConfusionMatrix=
+[[2446  121]
+ [ 285  197]]
+Epoch complete in 42.36
+
+Epoch 104, Phase train, Loss=0.0103, Acc=0.9967, AUC=0.9999, TPR=0.9990, TNR=0.9942, J=0.9933, Precision=0.9944, F1=0.9967, ConfusionMatrix=
+[[3969   23]
+ [   4 4068]]
+Epoch 104, Phase val, Loss=0.9413, Acc=0.8665, AUC=0.8047, TPR=0.4108, TNR=0.9521, J=0.3629, Precision=0.6168, F1=0.4932, ConfusionMatrix=
+[[2444  123]
+ [ 284  198]]
+Epoch complete in 41.25
+
+Epoch 105, Phase train, Loss=0.0064, Acc=0.9981, AUC=1.0000, TPR=0.9995, TNR=0.9967, J=0.9962, Precision=0.9968, F1=0.9982, ConfusionMatrix=
+[[3969   13]
+ [   2 4080]]
+Epoch 105, Phase val, Loss=0.9330, Acc=0.8665, AUC=0.8056, TPR=0.4212, TNR=0.9501, J=0.3713, Precision=0.6133, F1=0.4994, ConfusionMatrix=
+[[2439  128]
+ [ 279  203]]
+Epoch complete in 43.40
+
+Epoch 106, Phase train, Loss=0.0080, Acc=0.9979, AUC=0.9999, TPR=0.9998, TNR=0.9959, J=0.9957, Precision=0.9961, F1=0.9979, ConfusionMatrix=
+[[3925   16]
+ [   1 4122]]
+Epoch 106, Phase val, Loss=0.9461, Acc=0.8659, AUC=0.8051, TPR=0.4108, TNR=0.9513, J=0.3621, Precision=0.6130, F1=0.4919, ConfusionMatrix=
+[[2442  125]
+ [ 284  198]]
+Epoch complete in 44.11
+
+Epoch 107, Phase train, Loss=0.0093, Acc=0.9974, AUC=0.9999, TPR=0.9998, TNR=0.9949, J=0.9947, Precision=0.9952, F1=0.9975, ConfusionMatrix=
+[[3918   20]
+ [   1 4125]]
+Epoch 107, Phase val, Loss=0.9370, Acc=0.8652, AUC=0.8058, TPR=0.4004, TNR=0.9525, J=0.3529, Precision=0.6127, F1=0.4843, ConfusionMatrix=
+[[2445  122]
+ [ 289  193]]
+Epoch complete in 42.17
+
+Epoch 108, Phase train, Loss=0.0082, Acc=0.9976, AUC=0.9999, TPR=0.9998, TNR=0.9956, J=0.9953, Precision=0.9955, F1=0.9976, ConfusionMatrix=
+[[4030   18]
+ [   1 4015]]
+Epoch 108, Phase val, Loss=0.9340, Acc=0.8665, AUC=0.8059, TPR=0.4253, TNR=0.9494, J=0.3747, Precision=0.6119, F1=0.5018, ConfusionMatrix=
+[[2437  130]
+ [ 277  205]]
+Epoch complete in 44.07
+
+Epoch 109, Phase train, Loss=0.0057, Acc=0.9985, AUC=1.0000, TPR=0.9998, TNR=0.9973, J=0.9970, Precision=0.9973, F1=0.9985, ConfusionMatrix=
+[[4038   11]
+ [   1 4014]]
+Epoch 109, Phase val, Loss=0.9438, Acc=0.8672, AUC=0.8069, TPR=0.4170, TNR=0.9517, J=0.3687, Precision=0.6185, F1=0.4981, ConfusionMatrix=
+[[2443  124]
+ [ 281  201]]
+Epoch complete in 44.85
+
+Epoch 110, Phase train, Loss=0.0062, Acc=0.9983, AUC=1.0000, TPR=0.9998, TNR=0.9968, J=0.9965, Precision=0.9968, F1=0.9983, ConfusionMatrix=
+[[4032   13]
+ [   1 4018]]
+Epoch 110, Phase val, Loss=0.9386, Acc=0.8662, AUC=0.8070, TPR=0.4149, TNR=0.9509, J=0.3659, Precision=0.6135, F1=0.4950, ConfusionMatrix=
+[[2441  126]
+ [ 282  200]]
+Epoch complete in 42.30
+
+Epoch 111, Phase train, Loss=0.0103, Acc=0.9968, AUC=0.9999, TPR=0.9995, TNR=0.9941, J=0.9936, Precision=0.9940, F1=0.9967, ConfusionMatrix=
+[[4069   24]
+ [   2 3969]]
+Epoch 111, Phase val, Loss=0.9466, Acc=0.8678, AUC=0.8043, TPR=0.4066, TNR=0.9544, J=0.3611, Precision=0.6262, F1=0.4931, ConfusionMatrix=
+[[2450  117]
+ [ 286  196]]
+Epoch complete in 41.89
+
+Epoch 112, Phase train, Loss=0.0077, Acc=0.9975, AUC=1.0000, TPR=0.9993, TNR=0.9958, J=0.9950, Precision=0.9958, F1=0.9975, ConfusionMatrix=
+[[4024   17]
+ [   3 4020]]
+Epoch 112, Phase val, Loss=0.9445, Acc=0.8672, AUC=0.8072, TPR=0.4108, TNR=0.9529, J=0.3637, Precision=0.6207, F1=0.4944, ConfusionMatrix=
+[[2446  121]
+ [ 284  198]]
+Epoch complete in 42.25
+
+Epoch 113, Phase train, Loss=0.0054, Acc=0.9988, AUC=1.0000, TPR=1.0000, TNR=0.9975, J=0.9975, Precision=0.9975, F1=0.9988, ConfusionMatrix=
+[[4044   10]
+ [   0 4010]]
+Epoch 113, Phase val, Loss=0.9504, Acc=0.8678, AUC=0.8062, TPR=0.4212, TNR=0.9517, J=0.3729, Precision=0.6208, F1=0.5019, ConfusionMatrix=
+[[2443  124]
+ [ 279  203]]
+Epoch complete in 43.18
+
+Epoch 114, Phase train, Loss=0.0093, Acc=0.9975, AUC=0.9999, TPR=0.9995, TNR=0.9955, J=0.9950, Precision=0.9956, F1=0.9975, ConfusionMatrix=
+[[3973   18]
+ [   2 4071]]
+Epoch 114, Phase val, Loss=0.9413, Acc=0.8685, AUC=0.8053, TPR=0.4170, TNR=0.9533, J=0.3703, Precision=0.6262, F1=0.5006, ConfusionMatrix=
+[[2447  120]
+ [ 281  201]]
+Epoch complete in 41.33
+
+Epoch 115, Phase train, Loss=0.0066, Acc=0.9980, AUC=1.0000, TPR=0.9988, TNR=0.9973, J=0.9960, Precision=0.9973, F1=0.9980, ConfusionMatrix=
+[[4047   11]
+ [   5 4001]]
+Epoch 115, Phase val, Loss=0.9442, Acc=0.8668, AUC=0.8067, TPR=0.4191, TNR=0.9509, J=0.3700, Precision=0.6159, F1=0.4988, ConfusionMatrix=
+[[2441  126]
+ [ 280  202]]
+Epoch complete in 42.45
+
+Epoch 116, Phase train, Loss=0.0061, Acc=0.9980, AUC=1.0000, TPR=0.9990, TNR=0.9970, J=0.9960, Precision=0.9970, F1=0.9980, ConfusionMatrix=
+[[4013   12]
+ [   4 4035]]
+Epoch 116, Phase val, Loss=0.9461, Acc=0.8659, AUC=0.8053, TPR=0.4149, TNR=0.9505, J=0.3655, Precision=0.6116, F1=0.4944, ConfusionMatrix=
+[[2440  127]
+ [ 282  200]]
+Epoch complete in 43.12
+
+Epoch 117, Phase train, Loss=0.0075, Acc=0.9980, AUC=0.9999, TPR=0.9997, TNR=0.9963, J=0.9961, Precision=0.9962, F1=0.9980, ConfusionMatrix=
+[[4085   15]
+ [   1 3963]]
+Epoch 117, Phase val, Loss=0.9453, Acc=0.8668, AUC=0.8055, TPR=0.4170, TNR=0.9513, J=0.3683, Precision=0.6166, F1=0.4975, ConfusionMatrix=
+[[2442  125]
+ [ 281  201]]
+Epoch complete in 44.10
+
+Epoch 118, Phase train, Loss=0.0097, Acc=0.9964, AUC=0.9999, TPR=0.9975, TNR=0.9953, J=0.9928, Precision=0.9953, F1=0.9964, ConfusionMatrix=
+[[4011   19]
+ [  10 4024]]
+Epoch 118, Phase val, Loss=0.9493, Acc=0.8682, AUC=0.8074, TPR=0.4295, TNR=0.9505, J=0.3800, Precision=0.6198, F1=0.5074, ConfusionMatrix=
+[[2440  127]
+ [ 275  207]]
+Epoch complete in 43.10
+
+Epoch 119, Phase train, Loss=0.0067, Acc=0.9986, AUC=0.9999, TPR=1.0000, TNR=0.9973, J=0.9973, Precision=0.9972, F1=0.9986, ConfusionMatrix=
+[[4081   11]
+ [   0 3972]]
+Epoch 119, Phase val, Loss=0.9422, Acc=0.8678, AUC=0.8078, TPR=0.4440, TNR=0.9474, J=0.3914, Precision=0.6132, F1=0.5150, ConfusionMatrix=
+[[2432  135]
+ [ 268  214]]
+Epoch complete in 43.39
+
+Training complete in 87m 9s

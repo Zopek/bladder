@@ -1,0 +1,23 @@
+{
+  "base_lr": 0.001, 
+  "batch_size": 50,
+  "caching_data": false, 
+  "cancer_bboxes_root_dir": "/DATA/data/yjgu/bladder/bladder_labels", 
+  "cfg_name": "max_memory_usage_1_40",
+  "dataset_csv_dir": "/DATA/data/yjgu/bladder/dwi_ax_detection_dataset",
+  "image_root_dir": "/DATA/data/yjgu/bladder/dwi_ax_preprocessed_2d_fixed_order", 
+  "log_dir": "/DATA/data/yjgu/bladder/log", 
+  "model_weights_dir": "/DATA/data/yjgu/bladder/model_weights", 
+  "new_height": 160, 
+  "new_width": 160, 
+  "num_dataloader_workers": 8, 
+  "num_step_one_epoches": 1,
+  "num_step_two_epoches": 40, 
+  "using_bladder_mask": false, 
+  "weight_decay": 0.0005,
+  "concat_pred_list": [true,true,true,true,false],
+  "dropout_prob_list": [0.0, 0.0, 0.0, 0.0, 0.5],
+  "loss_weights_list": [0.5, 0.5, 0.5, 0.5, 1.0, 1.0],
+  "num_shared_encoders": 4,
+  "mil_pooling_type":"max"
+}

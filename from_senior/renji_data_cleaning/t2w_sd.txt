@@ -1,0 +1,24 @@
+ax t2 thin
+ax t2
+oax t2
+ocor  t2
+ocor t2
+osag t2
+osag t2 propeller
+t2 tse sag
+t2w
+t2w 120*120
+t2w_tse
+t2w_tse_cor
+t2w_tse_sag
+t2w_tse_tra clear
+t2w_tse_ax
+t2w_tse_ax sense_172641.610
+t2w_tse_ax sense_191233.693
+ax t2 fse
+ax t2 fse shim
+ax t2 ssfse bh asset
+ax t2 fs fse shim
+sag fse t2
+sag t2 fse
+t2_fse_tra

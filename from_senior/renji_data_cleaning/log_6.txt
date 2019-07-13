@@ -1,0 +1,212 @@
+/DB/rhome/yjgu/yjguEnv/local/lib/python2.7/site-packages/dicom/__init__.py:53: UserWarning: 
+This code is using an older version of pydicom, which is no longer 
+maintained as of Jan 2017.  You can access the new pydicom features and API 
+by installing `pydicom` from PyPI.
+See 'Transitioning to pydicom 1.x' section at pydicom.readthedocs.org 
+for more information.
+
+  warnings.warn(msg)
+Info: study 0: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0501566/HKSY1EDT
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0501566/HKSY1EDT/CCHA3DHK: T2W_TSE_Cor is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0501566/HKSY1EDT/DULAMQJK: DWI_B1000 is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0501566/HKSY1EDT/EMPBS4LK: T2W_SPAIR_ax is t2wfs
+Info: study 1: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0517038/FNYLP2CM
+Info: study 2: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0528128/AK1HSFGY
+Info: study 3: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0533893/H1GTFAJN
+Info: study 4: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0537101/G1NHH2GB
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0537101/G1NHH2GB/MQISMHA5: Ax DWI B=1000 is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0537101/G1NHH2GB/MRISMHA5: Ax T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0537101/G1NHH2GB/MXISMHA5: Ax LAVA C+ is dce
+No handlers could be found for logger "dicom_numpy.combine_slices"
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0537101/G1NHH2GB/MZISMHA5: Ax fs T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0537101/G1NHH2GB/NBISMHA5: OSag T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0537101/G1NHH2GB/NHISMHA5: OCor FS T2 is t2wfs
+Info: study 5: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0542243/JPQTRTBT
+Info: study 6: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0542507/5NSUL0MC
+Info: study 7: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0553861/32AELF5B
+Info: study 8: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0564603/WWLNYKAC
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0564603/WWLNYKAC/C1KDQIEC: OSag T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0564603/WWLNYKAC/GQKDQIEC: Ax LAVA C+ is dce
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0564603/WWLNYKAC/GRKDQIEC: Ax LAVA C+ is dce
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0564603/WWLNYKAC/GSKDQIEC: Ax DWI B=1000 is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0564603/WWLNYKAC/HEKDQIEC: Ax fs T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0564603/WWLNYKAC/HJKDQIEC: OCor FS T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0564603/WWLNYKAC/HKKDQIEC: Ax T2 is t2w
+Info: study 9: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0565951/4UPY3QA4
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0565951/4UPY3QA4/I53FUDAO: Ax DWI B=1000 is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0565951/4UPY3QA4/Q1KZX51L: Ax T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0565951/4UPY3QA4/QLKZX51L: OSag T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0565951/4UPY3QA4/QTKZX51L: OCor FS T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0565951/4UPY3QA4/QVKZX51L: Ax fs T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0565951/4UPY3QA4/SRNYYUBF: Ax LAVA C+ is dce
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0565951/4UPY3QA4/SZNYYUBF: Ax DWI B=1000 is dwi
+Info: study 10: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0565954/HZ50FWAQ
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0565954/HZ50FWAQ/3QIM24QZ: Ax LAVA C+ is dce
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0565954/HZ50FWAQ/3RIM24QZ: Ax DWI B=1000 is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0565954/HZ50FWAQ/3ZIM24QZ: Ax T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0565954/HZ50FWAQ/40IM24QZ: OSag T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0565954/HZ50FWAQ/4CIM24QZ: OCor FS T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0565954/HZ50FWAQ/4LIM24QZ: Ax fs T2 is t2wfs
+Info: study 11: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0566265/H3QJMICW
+Info: study 12: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0587082/LOTBXNQ0
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0587082/LOTBXNQ0/AET1YLTD: Ax DWI B=250N is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0587082/LOTBXNQ0/VCF2UPXA: BH Ax LAVA-Dynamic is dce
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0587082/LOTBXNQ0/VVF2UPXA: Ax DWI B=250N is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0587082/LOTBXNQ0/VXF2UPXA: Ax T2 is t2w
+Info: study 13: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0590828/YA5JKDH2
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0590828/YA5JKDH2/W0F2UPXA: Ax DWI B=250N is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0590828/YA5JKDH2/W1F2UPXA: Ax T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0590828/YA5JKDH2/WAF2UPXA: Ax DWI B=250N is dwi
+Info: study 14: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0595289/YRRCHJHR
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0595289/YRRCHJHR/OQP11UAR: Ax LAVA C+ is dce
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0595289/YRRCHJHR/ORP11UAR: Ax DWI B=1000 is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0595289/YRRCHJHR/OSP11UAR: Ax T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0595289/YRRCHJHR/PAP11UAR: OCor FS T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0595289/YRRCHJHR/PJP11UAR: OSag T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0595289/YRRCHJHR/PLP11UAR: Ax fs T2 is t2wfs
+Info: study 15: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0595289_1/YRRCHJHR
+Warning: Duplicate series! /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0595289_1/YRRCHJHR/OQP11UAR/I1000000 and /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0595289/YRRCHJHR/OQP11UAR/I1000000
+Warning: Duplicate series! /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0595289_1/YRRCHJHR/ORP11UAR/I1000000 and /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0595289/YRRCHJHR/ORP11UAR/I1000000
+Warning: Duplicate series! /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0595289_1/YRRCHJHR/OSP11UAR/I1000000 and /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0595289/YRRCHJHR/OSP11UAR/I1000000
+Warning: Duplicate series! /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0595289_1/YRRCHJHR/PAP11UAR/I1000000 and /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0595289/YRRCHJHR/PAP11UAR/I1000000
+Warning: Duplicate series! /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0595289_1/YRRCHJHR/PJP11UAR/I1000000 and /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0595289/YRRCHJHR/PJP11UAR/I1000000
+Warning: Duplicate series! /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0595289_1/YRRCHJHR/PLP11UAR/I1000000 and /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0595289/YRRCHJHR/PLP11UAR/I1000000
+Info: study 16: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0599637/JEPZSJSP
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0599637/JEPZSJSP/CBG2KNG4: THRIVE_DYN_4 is dce
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0599637/JEPZSJSP/DRFE2UG4: THRIVE_DYN_4 is dce
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0599637/JEPZSJSP/QBAX1FUQ: DWI_B1000 is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0599637/JEPZSJSP/RVGQ4TQQ: T2W_SPAIR_ax is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0599637/JEPZSJSP/X50UNWQQ: T2W_TSE_Cor is t2w
+Info: study 17: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0605844/YKO4Y3TO
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0605844/YKO4Y3TO/JEIJJUTE: OSag fs T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0605844/YKO4Y3TO/JJIJJUTE: Ax DWI B=250N is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0605844/YKO4Y3TO/JKIJJUTE: BH Ax LAVA-Dynamic is dce
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0605844/YKO4Y3TO/JXIJJUTE: OCor fs T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0605844/YKO4Y3TO/KKIJJUTE: Ax T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0605844/YKO4Y3TO/KLIJJUTE: Ax fs T2 is t2wfs
+Info: study 18: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0606468/BYCG55OR
+Info: study 19: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0615978/FWDP5XBD
+Info: study 20: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0621062/KR3MXEZQ
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0621062/KR3MXEZQ/M2SQ5FID: THRIVE_DYN_4 is dce
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0621062/KR3MXEZQ/TKTJWTED: T2W_TSE_Cor is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0621062/KR3MXEZQ/X2KXPRED: DWI_B1000 is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0621062/KR3MXEZQ/XWUVU5GD: T2W_SPAIR_ax is t2wfs
+Info: study 21: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0627641/JOK2QZBK
+Info: study 22: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0629243/M3AY2R30
+Info: study 23: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0629998/STFAT33R
+Info: study 24: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0631100/KTUMGBOJ
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0631100/KTUMGBOJ/IQNT1Z5K: Ax T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0631100/KTUMGBOJ/IVNT1Z5K: Ax LAVA C+ is dce
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0631100/KTUMGBOJ/IXNT1Z5K: Ax DWI B=1000 is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0631100/KTUMGBOJ/IZNT1Z5K: Ax fs T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0631100/KTUMGBOJ/JBNT1Z5K: OSag T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0631100/KTUMGBOJ/JKNT1Z5K: OCor FS T2 is t2wfs
+Info: study 25: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0643108/QXGUQY0C
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0643108/QXGUQY0C/SQMJVA1F: OSag T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0643108/QXGUQY0C/VQMJVA1F: Ax LAVA C+ is dce
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0643108/QXGUQY0C/WCMJVA1F: Ax T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0643108/QXGUQY0C/WEMJVA1F: Ax DWI B=1000 is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0643108/QXGUQY0C/WVMJVA1F: Ax fs T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0643108/QXGUQY0C/XJMJVA1F: OCor FS T2 is t2wfs
+Info: study 26: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0643276/QBWBA4PC
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0643276/QBWBA4PC/TCNZVA1F: OSag T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0643276/QBWBA4PC/TENZVA1F: OCor FS T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0643276/QBWBA4PC/UVTY3EDT: Ax T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0643276/QBWBA4PC/UYTY3EDT: Ax fs T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0643276/QBWBA4PC/VATY3EDT: Ax DWI B=1000 is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0643276/QBWBA4PC/VFTY3EDT: Ax LAVA C+ is dce
+Info: study 27: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0645094/MIW3E2OT
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0645094/MIW3E2OT/G0LYJ1EM: Ax DWI B=500.800.1200.1500.2000 is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0645094/MIW3E2OT/G1LYJ1EM: Ax T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0645094/MIW3E2OT/GBLYJ1EM: BH Ax LAVA-Dynamic is dce
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0645094/MIW3E2OT/GULYJ1EM: Ax fs T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0645094/MIW3E2OT/HFLYJ1EM: OSag T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0645094/MIW3E2OT/HLLYJ1EM: OCor FS T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0645094/MIW3E2OT/IE4EULB1: Ax DWI B=500.800.1200.1500.2000 is dwi
+Info: study 28: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0646592/5RVMQVOT
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0646592/5RVMQVOT/C1LYJ1EM: BH Ax LAVA-Dynamic is dce
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0646592/5RVMQVOT/CSLYJ1EM: OSag T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0646592/5RVMQVOT/CWLYJ1EM: Ax DWI B=500.800.1200.1500.2000 is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0646592/5RVMQVOT/CXLYJ1EM: OCor FS T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0646592/5RVMQVOT/CZLYJ1EM: Ax T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0646592/5RVMQVOT/DGL2J1EM: Ax fs T2 is t2wfs
+Info: study 29: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0661721/440TAL2C
+Info: study 30: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0662188/TVWVDA4I
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0662188/TVWVDA4I/SUIRVAQZ: OSag T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0662188/TVWVDA4I/WSIRVAQZ: Ax DWI B=500.800.1200.1500.2000 is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0662188/TVWVDA4I/WZIRVAQZ: Ax fs T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0662188/TVWVDA4I/XAIRVAQZ: Ax fs T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0662188/TVWVDA4I/XCIRVAQZ: OCor FS T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0662188/TVWVDA4I/XFIRVAQZ: Ax T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0662188/TVWVDA4I/XKIRVAQZ: Ax T2 is t2w
+Info: study 31: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0667043/HEKLCOAU
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0667043/HEKLCOAU/LSMJFKR3: Ax DWI B=500.800.1200.1500.2000 is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0667043/HEKLCOAU/MFMJFKR3: Ax fs T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0667043/HEKLCOAU/MLMJFKR3: Ax T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0667043/HEKLCOAU/MQMJFKR3: OSag T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0667043/HEKLCOAU/MWMJFKR3: OCor FS T2 is t2wfs
+Info: study 32: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0669903/AY1C2QFX
+Info: study 33: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0677566/B02RC550
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0677566/B02RC550/A0LMOYY5: Ax fs T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0677566/B02RC550/ACLMOYY5: Ax DWI B=1000 is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0677566/B02RC550/AJLMOYY5: Ax T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0677566/B02RC550/ARLMOYY5: OCor FS T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0677566/B02RC550/AZLMOYY5: OSag T2 is t2w
+Info: study 34: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0683541/TRILKGYR
+Info: study 35: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0689124/N03UGYAN
+Info: study 36: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0691868/SJPGMHP2
+Info: study 37: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0696129/LUFCTZAZ
+Info: study 38: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0701407/4BO5EMPN
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0701407/4BO5EMPN/3HVZKWL3: T2W_SPAIR_ax is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0701407/4BO5EMPN/3NX1FFD3: DWI_B1000 is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0701407/4BO5EMPN/43QH53H3: THRIVE_DYN_4 is dce
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0701407/4BO5EMPN/G3TLXXV5: THRIVE_DYN_1 is dce
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0701407/4BO5EMPN/Z1VX04D3: T2W_TSE_Cor is t2w
+Info: study 39: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0701415/HQOF2OOS
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0701415/HQOF2OOS/3NX4LMV5: THRIVE_DYN_4 is dce
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0701415/HQOF2OOS/5H5VEWD5: T2W_SPAIR_ax is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0701415/HQOF2OOS/5N1X54H5: DWI_B1000 is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0701415/HQOF2OOS/E1XXVNH5: T2W_TSE_Cor is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0701415/HQOF2OOS/XWQLUVF5: THRIVE_DYN_1 is dce
+Info: study 40: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0712961/LTU5U3EE
+Info: study 41: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0715733/1O4DLRNY
+Info: study 42: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0718234/Q52H5XKS
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0718234/Q52H5XKS/SVFZFPHL: Ax T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0718234/Q52H5XKS/SXFZFPHL: Ax fs T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0718234/Q52H5XKS/SZFZFPHL: OCor FS T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0718234/Q52H5XKS/TLF3FPHL: OSag T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0718234/Q52H5XKS/WSFZFPHL: BH Ax LAVA-Dynamic is dce
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0718234/Q52H5XKS/WZFZFPHL: Ax DWI B=500.800.1200.1500.2000 is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0718234/Q52H5XKS/XLFZFPHL: Ax T2 is t2w
+Info: study 43: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0718281/120AXVAB
+Info: study 44: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0719283/YPWWCOM0
+Info: study 45: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0719976/WLNG0BM0
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0719976/WLNG0BM0/T0FZFPHL: Ax DWI B=500.800.1200.1500.2000 is dwi
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0719976/WLNG0BM0/T1FZFPHL: Ax T2 is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0719976/WLNG0BM0/TWFZFPHL: Ax fs T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0719976/WLNG0BM0/TZFZFPHL: OCor FS T2 is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0719976/WLNG0BM0/ULFZFPHL: OSag T2 is t2w
+Info: study 46: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0720246/LV0F14ED
+Info: study 47: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0721989/1123GCQI
+Info: study 48: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0730866/NMVGWLBY
+Info: study 49: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0735232/HYQH1JFL
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0735232/HYQH1JFL/0V3SC4UJ: THRIVE_DYN_4 is dce
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0735232/HYQH1JFL/3DBK3FYJ: T2W_TSE_Cor is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0735232/HYQH1JFL/ZSFP2C4J: T2W_SPAIR_ax is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0735232/HYQH1JFL/ZVFOFUYJ: DWI_B1000 is dwi
+Info: study 50: /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0736846/UMDRP4XA
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0736846/UMDRP4XA/JTMF0DXK: T2W_TSE_Cor is t2w
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0736846/UMDRP4XA/LCAGXQ1K: T2W_SPAIR_ax is t2wfs
+Info: series /DATA3_DB7/data/public/renji_data/bladder/2013-2015/D0736846/UMDRP4XA/LFCFCCVK: DWI_B1000 is dwi
+Traceback (most recent call last):
+  File "clean_data.py", line 398, in <module>
+    main()
+  File "clean_data.py", line 328, in main
+    df = DicomFile(file_path, dicom.read_file(file_path))
+  File "/DB/rhome/yjgu/yjguEnv/local/lib/python2.7/site-packages/dicom/filereader.py", line 614, in read_file
+    force=force)
+  File "/DB/rhome/yjgu/yjguEnv/local/lib/python2.7/site-packages/dicom/filereader.py", line 515, in read_partial
+    preamble = read_preamble(fileobj, force)
+  File "/DB/rhome/yjgu/yjguEnv/local/lib/python2.7/site-packages/dicom/filereader.py", line 477, in read_preamble
+    preamble = fp.read(0x80)
+KeyboardInterrupt

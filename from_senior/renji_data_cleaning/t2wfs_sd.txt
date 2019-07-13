@@ -1,0 +1,12 @@
+t2w_spair
+t2w_spair_ax
+t2w_tse_spair
+ax fs t2
+oax fs t2
+ocor fs t2
+ocor t2 fs fse
+ocor fs t2
+osag fs t2
+t2_fse_cor_fs
+t2_fse_sag_fs
+t2_fse_tra_fs

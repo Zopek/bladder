@@ -1,0 +1,218 @@
+2.38857182589
+Epoch   0, Phase cv_train, Step    0, Loss_CAM=0.7032, Loss_Consistency=0.0000, IOU_CAM=2.3886, IOU_score_map=5.0123
+[[ 0 36]
+ [ 0 44]]
+1.67596476787
+Epoch   0, Phase cv_train, Step    1, Loss_CAM=1.3226, Loss_Consistency=0.0000, IOU_CAM=1.6760, IOU_score_map=5.1857
+[[ 0 43]
+ [ 0 37]]
+2.84885468354
+Epoch   0, Phase cv_train, Step    2, Loss_CAM=0.8001, Loss_Consistency=0.0000, IOU_CAM=2.8489, IOU_score_map=4.5858
+[[ 0 43]
+ [ 0 37]]
+2.37766156878
+Epoch   0, Phase cv_train, Step    3, Loss_CAM=0.7073, Loss_Consistency=0.0000, IOU_CAM=2.3777, IOU_score_map=5.9304
+[[ 0 38]
+ [ 0 42]]
+2.07149778094
+Epoch   0, Phase cv_train, Step    4, Loss_CAM=0.6849, Loss_Consistency=0.0000, IOU_CAM=2.0715, IOU_score_map=5.9651
+[[ 0 38]
+ [ 0 42]]
+1.38390040398
+Epoch   0, Phase cv_train, Step    5, Loss_CAM=0.7277, Loss_Consistency=0.0000, IOU_CAM=1.3839, IOU_score_map=4.5590
+[[ 0 48]
+ [ 0 32]]
+2.94894686612
+Epoch   0, Phase cv_train, Step    6, Loss_CAM=0.6512, Loss_Consistency=0.0000, IOU_CAM=2.9489, IOU_score_map=7.4571
+[[ 0 36]
+ [ 0 44]]
+1.92031345367
+Epoch   0, Phase cv_train, Step    7, Loss_CAM=0.6566, Loss_Consistency=0.0000, IOU_CAM=1.9203, IOU_score_map=5.8648
+[[ 0 40]
+ [ 0 40]]
+21.650378418
+Epoch   0, Phase cv_train, Step    8, Loss_CAM=0.6610, Loss_Consistency=0.0000, IOU_CAM=21.6504, IOU_score_map=4.6317
+[[20 30]
+ [ 2 28]]
+16.149844215
+Epoch   0, Phase cv_train, Step    9, Loss_CAM=0.6198, Loss_Consistency=0.0000, IOU_CAM=16.1498, IOU_score_map=5.7444
+[[14 24]
+ [ 9 33]]
+16.747593471
+Epoch   0, Phase cv_train, Step   10, Loss_CAM=0.6692, Loss_Consistency=0.0000, IOU_CAM=16.7476, IOU_score_map=4.9416
+[[16 29]
+ [ 6 29]]
+32.6062442555
+Epoch   0, Phase cv_train, Step   11, Loss_CAM=0.6748, Loss_Consistency=0.0000, IOU_CAM=32.6062, IOU_score_map=5.5371
+[[30 16]
+ [ 8 26]]
+14.0495217063
+Epoch   0, Phase cv_train, Step   12, Loss_CAM=0.6638, Loss_Consistency=0.0000, IOU_CAM=14.0495, IOU_score_map=9.0049
+[[13 23]
+ [17 27]]
+25.6777242025
+Epoch   0, Phase cv_train, Step   13, Loss_CAM=0.6362, Loss_Consistency=0.0000, IOU_CAM=25.6777, IOU_score_map=5.9200
+[[25  7]
+ [20 28]]
+23.3411141329
+Epoch   0, Phase cv_train, Step   14, Loss_CAM=0.6262, Loss_Consistency=0.0000, IOU_CAM=23.3411, IOU_score_map=5.9003
+[[21 16]
+ [18 25]]
+33.9493793688
+Epoch   0, Phase cv_train, Step   15, Loss_CAM=0.5957, Loss_Consistency=0.0000, IOU_CAM=33.9494, IOU_score_map=7.5861
+[[33  9]
+ [16 22]]
+23.7940063477
+Epoch   0, Phase cv_train, Step   16, Loss_CAM=0.6067, Loss_Consistency=0.0000, IOU_CAM=23.7940, IOU_score_map=7.4206
+[[21 11]
+ [18 30]]
+24.8812284924
+Epoch   0, Phase cv_train, Step   17, Loss_CAM=0.6465, Loss_Consistency=0.0000, IOU_CAM=24.8812, IOU_score_map=6.4817
+[[23 15]
+ [14 28]]
+31.3688745743
+Epoch   0, Phase cv_train, Step   18, Loss_CAM=0.5688, Loss_Consistency=0.0000, IOU_CAM=31.3689, IOU_score_map=7.1138
+[[29 12]
+ [13 26]]
+26.9021391997
+Epoch   0, Phase cv_train, Step   19, Loss_CAM=0.6342, Loss_Consistency=0.0000, IOU_CAM=26.9021, IOU_score_map=4.5732
+[[25 18]
+ [11 26]]
+27.4056266622
+Epoch   0, Phase cv_train, Step   20, Loss_CAM=0.5533, Loss_Consistency=0.0000, IOU_CAM=27.4056, IOU_score_map=7.6036
+[[23 10]
+ [14 33]]
+33.169354248
+Epoch   0, Phase cv_train, Step   21, Loss_CAM=0.5754, Loss_Consistency=0.0000, IOU_CAM=33.1694, IOU_score_map=6.0856
+[[31  9]
+ [13 27]]
+21.0782749721
+Epoch   0, Phase cv_train, Step   22, Loss_CAM=0.7847, Loss_Consistency=0.0000, IOU_CAM=21.0783, IOU_score_map=6.5648
+[[17 28]
+ [13 22]]
+34.4085662059
+Epoch   0, Phase cv_train, Step   23, Loss_CAM=0.6119, Loss_Consistency=0.0000, IOU_CAM=34.4086, IOU_score_map=6.4405
+[[31 10]
+ [13 26]]
+39.0702737948
+Epoch   0, Phase cv_train, Step   24, Loss_CAM=0.5152, Loss_Consistency=0.0000, IOU_CAM=39.0703, IOU_score_map=6.8197
+[[36  3]
+ [12 29]]
+36.560146234
+Epoch   0, Phase cv_train, Step   25, Loss_CAM=0.5566, Loss_Consistency=0.0000, IOU_CAM=36.5601, IOU_score_map=5.9363
+[[34  7]
+ [17 22]]
+29.4196258545
+Epoch   0, Phase cv_train, Step   26, Loss_CAM=0.6009, Loss_Consistency=0.0000, IOU_CAM=29.4196, IOU_score_map=5.8200
+[[27 13]
+ [15 25]]
+30.2903585995
+Epoch   0, Phase cv_train, Step   27, Loss_CAM=0.6933, Loss_Consistency=0.0000, IOU_CAM=30.2904, IOU_score_map=6.0346
+[[28 18]
+ [14 20]]
+32.9496674409
+Epoch   0, Phase cv_train, Step   28, Loss_CAM=0.5743, Loss_Consistency=0.0000, IOU_CAM=32.9497, IOU_score_map=6.8983
+[[31 12]
+ [14 23]]
+26.9175442782
+Epoch   0, Phase cv_train, Step   29, Loss_CAM=0.6270, Loss_Consistency=0.0000, IOU_CAM=26.9175, IOU_score_map=6.9799
+[[26 10]
+ [19 25]]
+24.5604354195
+Epoch   0, Phase cv_train, Step   30, Loss_CAM=0.5958, Loss_Consistency=0.0000, IOU_CAM=24.5604, IOU_score_map=6.4260
+[[24 10]
+ [18 28]]
+30.8868120979
+Epoch   0, Phase cv_train, Step   31, Loss_CAM=0.5680, Loss_Consistency=0.0000, IOU_CAM=30.8868, IOU_score_map=5.8591
+[[30 16]
+ [11 23]]
+32.7009110884
+Epoch   0, Phase cv_train, Step   32, Loss_CAM=0.5381, Loss_Consistency=0.0000, IOU_CAM=32.7009, IOU_score_map=7.1527
+[[31  5]
+ [16 28]]
+30.6769195557
+Epoch   0, Phase cv_train, Step   33, Loss_CAM=0.5549, Loss_Consistency=0.0000, IOU_CAM=30.6769, IOU_score_map=7.6310
+[[29 11]
+ [11 29]]
+35.7261772156
+Epoch   0, Phase cv_train, Step   34, Loss_CAM=0.5509, Loss_Consistency=0.0000, IOU_CAM=35.7262, IOU_score_map=5.5305
+[[33 15]
+ [10 22]]
+28.7755533854
+Epoch   0, Phase cv_train, Step   35, Loss_CAM=0.5196, Loss_Consistency=0.0000, IOU_CAM=28.7756, IOU_score_map=6.0844
+[[25 13]
+ [13 29]]
+23.5213648478
+Epoch   0, Phase cv_train, Step   36, Loss_CAM=0.5496, Loss_Consistency=0.0000, IOU_CAM=23.5214, IOU_score_map=9.7234
+[[20 12]
+ [14 34]]
+26.9736119712
+Epoch   0, Phase cv_train, Step   37, Loss_CAM=0.5659, Loss_Consistency=0.0000, IOU_CAM=26.9736, IOU_score_map=6.4906
+[[25 14]
+ [13 28]]
+25.5513618283
+Epoch   0, Phase cv_train, Step   38, Loss_CAM=0.5128, Loss_Consistency=0.0000, IOU_CAM=25.5514, IOU_score_map=7.2850
+[[23 16]
+ [ 6 35]]
+23.2791535134
+Epoch   0, Phase cv_train, Step   39, Loss_CAM=0.5563, Loss_Consistency=0.0000, IOU_CAM=23.2792, IOU_score_map=7.3794
+[[19 18]
+ [ 9 34]]
+30.3388703999
+Epoch   0, Phase cv_train, Step   40, Loss_CAM=0.5831, Loss_Consistency=0.0000, IOU_CAM=30.3389, IOU_score_map=7.7519
+[[27 15]
+ [ 9 29]]
+25.4933166504
+Epoch   0, Phase cv_train, Step   41, Loss_CAM=0.5001, Loss_Consistency=0.0000, IOU_CAM=25.4933, IOU_score_map=6.8354
+[[23 17]
+ [ 8 32]]
+29.2093963623
+Epoch   0, Phase cv_train, Step   42, Loss_CAM=0.5205, Loss_Consistency=0.0000, IOU_CAM=29.2094, IOU_score_map=7.6554
+[[25 15]
+ [ 6 34]]
+22.9011013455
+Epoch   0, Phase cv_train, Step   43, Loss_CAM=0.5171, Loss_Consistency=0.0000, IOU_CAM=22.9011, IOU_score_map=7.4536
+[[20 15]
+ [ 9 36]]
+23.1725725446
+Epoch   0, Phase cv_train, Step   44, Loss_CAM=0.5522, Loss_Consistency=0.0000, IOU_CAM=23.1726, IOU_score_map=6.7377
+[[19 12]
+ [ 9 40]]
+27.4495313691
+Epoch   0, Phase cv_train, Step   45, Loss_CAM=0.5272, Loss_Consistency=0.0000, IOU_CAM=27.4495, IOU_score_map=5.3268
+[[24 15]
+ [ 8 33]]
+36.5754224201
+Epoch   0, Phase cv_train, Step   46, Loss_CAM=0.4774, Loss_Consistency=0.0000, IOU_CAM=36.5754, IOU_score_map=7.8234
+[[31  6]
+ [16 27]]
+26.1274476663
+Epoch   0, Phase cv_train, Step   47, Loss_CAM=0.5297, Loss_Consistency=0.0000, IOU_CAM=26.1274, IOU_score_map=5.8513
+[[24 17]
+ [ 5 34]]
+23.9390228271
+Epoch   0, Phase cv_train, Step   48, Loss_CAM=0.5146, Loss_Consistency=0.0000, IOU_CAM=23.9390, IOU_score_map=7.7946
+[[20 20]
+ [ 9 31]]
+28.8305664062
+Epoch   0, Phase cv_train, Step   49, Loss_CAM=0.5254, Loss_Consistency=0.0000, IOU_CAM=28.8306, IOU_score_map=5.4531
+[[26 19]
+ [ 8 27]]
+30.6634043818
+Epoch   0, Phase cv_train, Step   50, Loss_CAM=0.4314, Loss_Consistency=0.0000, IOU_CAM=30.6634, IOU_score_map=6.3413
+[[27  7]
+ [10 36]]
+37.1979980469
+Epoch   0, Phase cv_train, Step   51, Loss_CAM=0.6116, Loss_Consistency=0.0000, IOU_CAM=37.1980, IOU_score_map=6.3007
+[[35  7]
+ [12 26]]
+37.3731560958
+Epoch   0, Phase cv_train, Step   52, Loss_CAM=0.5468, Loss_Consistency=0.0000, IOU_CAM=37.3732, IOU_score_map=7.0125
+[[36  6]
+ [20 18]]
+42.3636372884
+Epoch   0, Phase cv_train, Step   53, Loss_CAM=0.5152, Loss_Consistency=0.0000, IOU_CAM=42.3636, IOU_score_map=5.6269
+[[40  4]
+ [19 17]]
+31.4033351991
+Epoch   0, Phase cv_train, Step   54,

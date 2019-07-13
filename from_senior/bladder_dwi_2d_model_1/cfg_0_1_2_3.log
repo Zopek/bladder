@@ -1,0 +1,281 @@
+Start training resnet18_conv1x1_avgpool
+Epoch 0, Phase train, Loss=0.5553, Acc=0.7064, AUC=0.7872, TPR=0.6935, TNR=0.7193, J=0.4128, MCC=0.4129, ConfusionMatrix=
+[[2634 1028]
+ [1115 2523]]
+Epoch 0, Phase val, Loss=0.5447, Acc=0.7658, AUC=0.7940, TPR=0.7036, TNR=0.7769, J=0.4805, MCC=0.3774, ConfusionMatrix=
+[[1689  485]
+ [ 115  273]]
+New Best AUC=0.7940. The model weights are stored in /DATA/data/yjgu/bladder/model_weights/resnet18_conv1x1_avgpool_bestAUC.pth
+Epoch 0, Phase test, Loss=0.5918, Acc=0.7313, AUC=0.7660, TPR=0.6774, TNR=0.7406, J=0.4180, MCC=0.3171, ConfusionMatrix=
+[[1599  560]
+ [ 120  252]]
+Epoch complete in 34.35
+
+Epoch 1, Phase train, Loss=0.4981, Acc=0.7692, AUC=0.8424, TPR=0.7450, TNR=0.7937, J=0.5387, MCC=0.5392, ConfusionMatrix=
+[[2877  748]
+ [ 937 2738]]
+Epoch 1, Phase val, Loss=0.5081, Acc=0.8130, AUC=0.8101, TPR=0.6546, TNR=0.8413, J=0.4959, MCC=0.4201, ConfusionMatrix=
+[[1829  345]
+ [ 134  254]]
+New Best AUC=0.8101. The model weights are stored in /DATA/data/yjgu/bladder/model_weights/resnet18_conv1x1_avgpool_bestAUC.pth
+Epoch 1, Phase test, Loss=0.5283, Acc=0.7930, AUC=0.7858, TPR=0.6478, TNR=0.8180, J=0.4658, MCC=0.3807, ConfusionMatrix=
+[[1766  393]
+ [ 131  241]]
+Epoch complete in 28.39
+
+Epoch 2, Phase train, Loss=0.4253, Acc=0.8085, AUC=0.8873, TPR=0.7779, TNR=0.8384, J=0.6163, MCC=0.6177, ConfusionMatrix=
+[[3093  596]
+ [ 802 2809]]
+Epoch 2, Phase val, Loss=0.5555, Acc=0.7635, AUC=0.8044, TPR=0.7345, TNR=0.7686, J=0.5032, MCC=0.3909, ConfusionMatrix=
+[[1671  503]
+ [ 103  285]]
+Epoch 2, Phase test, Loss=0.5942, Acc=0.7503, AUC=0.7821, TPR=0.7070, TNR=0.7578, J=0.4647, MCC=0.3556, ConfusionMatrix=
+[[1636  523]
+ [ 109  263]]
+Epoch complete in 28.66
+
+Epoch 3, Phase train, Loss=0.3997, Acc=0.8189, AUC=0.9010, TPR=0.8166, TNR=0.8212, J=0.6378, MCC=0.6378, ConfusionMatrix=
+[[2994  652]
+ [ 670 2984]]
+Epoch 3, Phase val, Loss=0.4737, Acc=0.8021, AUC=0.8000, TPR=0.6443, TNR=0.8303, J=0.4746, MCC=0.3975, ConfusionMatrix=
+[[1805  369]
+ [ 138  250]]
+Epoch 3, Phase test, Loss=0.5239, Acc=0.7795, AUC=0.7575, TPR=0.5995, TNR=0.8106, J=0.4100, MCC=0.3354, ConfusionMatrix=
+[[1750  409]
+ [ 149  223]]
+Epoch complete in 27.67
+
+Epoch 4, Phase train, Loss=0.3605, Acc=0.8467, AUC=0.9199, TPR=0.8500, TNR=0.8434, J=0.6934, MCC=0.6934, ConfusionMatrix=
+[[3059  568]
+ [ 551 3122]]
+Epoch 4, Phase val, Loss=0.4773, Acc=0.8126, AUC=0.7951, TPR=0.5232, TNR=0.8643, J=0.3875, MCC=0.3510, ConfusionMatrix=
+[[1879  295]
+ [ 185  203]]
+Epoch 4, Phase test, Loss=0.5033, Acc=0.8254, AUC=0.7629, TPR=0.5565, TNR=0.8717, J=0.4282, MCC=0.3855, ConfusionMatrix=
+[[1882  277]
+ [ 165  207]]
+Epoch complete in 27.74
+
+Epoch 5, Phase train, Loss=0.3236, Acc=0.8696, AUC=0.9352, TPR=0.8760, TNR=0.8635, J=0.7395, MCC=0.7393, ConfusionMatrix=
+[[3232  511]
+ [ 441 3116]]
+Epoch 5, Phase val, Loss=0.4117, Acc=0.8177, AUC=0.8021, TPR=0.5438, TNR=0.8666, J=0.4104, MCC=0.3710, ConfusionMatrix=
+[[1884  290]
+ [ 177  211]]
+Epoch 5, Phase test, Loss=0.4754, Acc=0.8096, AUC=0.7540, TPR=0.5565, TNR=0.8532, J=0.4096, MCC=0.3580, ConfusionMatrix=
+[[1842  317]
+ [ 165  207]]
+Epoch complete in 27.50
+
+Epoch 6, Phase train, Loss=0.2972, Acc=0.8773, AUC=0.9452, TPR=0.8907, TNR=0.8641, J=0.7548, MCC=0.7549, ConfusionMatrix=
+[[3192  502]
+ [ 394 3212]]
+Epoch 6, Phase val, Loss=0.4675, Acc=0.8134, AUC=0.7827, TPR=0.5206, TNR=0.8657, J=0.3863, MCC=0.3510, ConfusionMatrix=
+[[1882  292]
+ [ 186  202]]
+Epoch 6, Phase test, Loss=0.4845, Acc=0.8206, AUC=0.7645, TPR=0.5108, TNR=0.8740, J=0.3848, MCC=0.3527, ConfusionMatrix=
+[[1887  272]
+ [ 182  190]]
+Epoch complete in 31.80
+
+Epoch 7, Phase train, Loss=0.2812, Acc=0.8911, AUC=0.9503, TPR=0.8994, TNR=0.8831, J=0.7824, MCC=0.7824, ConfusionMatrix=
+[[3270  433]
+ [ 362 3235]]
+Epoch 7, Phase val, Loss=0.5430, Acc=0.7923, AUC=0.8057, TPR=0.6418, TNR=0.8192, J=0.4610, MCC=0.3813, ConfusionMatrix=
+[[1781  393]
+ [ 139  249]]
+Epoch 7, Phase test, Loss=0.5889, Acc=0.7859, AUC=0.7732, TPR=0.6263, TNR=0.8133, J=0.4397, MCC=0.3589, ConfusionMatrix=
+[[1756  403]
+ [ 139  233]]
+Epoch complete in 27.39
+
+Epoch 8, Phase train, Loss=0.2664, Acc=0.8927, AUC=0.9558, TPR=0.9030, TNR=0.8824, J=0.7854, MCC=0.7856, ConfusionMatrix=
+[[3211  428]
+ [ 355 3306]]
+Epoch 8, Phase val, Loss=0.6025, Acc=0.7799, AUC=0.7922, TPR=0.6624, TNR=0.8008, J=0.4632, MCC=0.3743, ConfusionMatrix=
+[[1741  433]
+ [ 131  257]]
+Epoch 8, Phase test, Loss=0.6243, Acc=0.7606, AUC=0.7756, TPR=0.6425, TNR=0.7809, J=0.4234, MCC=0.3334, ConfusionMatrix=
+[[1686  473]
+ [ 133  239]]
+Epoch complete in 27.68
+
+Epoch 9, Phase train, Loss=0.2429, Acc=0.9038, AUC=0.9634, TPR=0.9150, TNR=0.8923, J=0.8073, MCC=0.8077, ConfusionMatrix=
+[[3205  387]
+ [ 315 3393]]
+Epoch 9, Phase val, Loss=0.4242, Acc=0.8228, AUC=0.7990, TPR=0.4768, TNR=0.8845, J=0.3613, MCC=0.3447, ConfusionMatrix=
+[[1923  251]
+ [ 203  185]]
+Epoch 9, Phase test, Loss=0.4737, Acc=0.8159, AUC=0.7552, TPR=0.5027, TNR=0.8698, J=0.3725, MCC=0.3398, ConfusionMatrix=
+[[1878  281]
+ [ 185  187]]
+Epoch complete in 28.89
+
+Early Stop!
+Training complete in 4m 50s
+Start training resnet18_conv1x1_maxpool
+Epoch 0, Phase train, Loss=0.5809, Acc=0.6929, AUC=0.7644, TPR=0.6836, TNR=0.7024, J=0.3861, MCC=0.3860, ConfusionMatrix=
+[[2521 1068]
+ [1174 2537]]
+Epoch 0, Phase val, Loss=0.5126, Acc=0.7740, AUC=0.7744, TPR=0.6005, TNR=0.8050, J=0.4055, MCC=0.3329, ConfusionMatrix=
+[[1750  424]
+ [ 155  233]]
+New Best AUC=0.7744. The model weights are stored in /DATA/data/yjgu/bladder/model_weights/resnet18_conv1x1_maxpool_bestAUC.pth
+Epoch 0, Phase test, Loss=0.5194, Acc=0.7503, AUC=0.7709, TPR=0.6425, TNR=0.7689, J=0.4113, MCC=0.3205, ConfusionMatrix=
+[[1660  499]
+ [ 133  239]]
+Epoch complete in 28.78
+
+Epoch 1, Phase train, Loss=0.4887, Acc=0.7732, AUC=0.8443, TPR=0.7302, TNR=0.8165, J=0.5468, MCC=0.5487, ConfusionMatrix=
+[[2964  666]
+ [ 990 2680]]
+Epoch 1, Phase val, Loss=0.4106, Acc=0.8439, AUC=0.7935, TPR=0.5490, TNR=0.8965, J=0.4455, MCC=0.4242, ConfusionMatrix=
+[[1949  225]
+ [ 175  213]]
+New Best AUC=0.7935. The model weights are stored in /DATA/data/yjgu/bladder/model_weights/resnet18_conv1x1_maxpool_bestAUC.pth
+Epoch 1, Phase test, Loss=0.4270, Acc=0.8424, AUC=0.7875, TPR=0.5484, TNR=0.8930, J=0.4414, MCC=0.4143, ConfusionMatrix=
+[[1928  231]
+ [ 168  204]]
+Epoch complete in 29.66
+
+Epoch 2, Phase train, Loss=0.4619, Acc=0.7912, AUC=0.8631, TPR=0.7468, TNR=0.8348, J=0.5816, MCC=0.5841, ConfusionMatrix=
+[[3077  609]
+ [ 915 2699]]
+Epoch 2, Phase val, Loss=0.4385, Acc=0.8279, AUC=0.8064, TPR=0.6469, TNR=0.8602, J=0.5071, MCC=0.4413, ConfusionMatrix=
+[[1870  304]
+ [ 137  251]]
+New Best AUC=0.8064. The model weights are stored in /DATA/data/yjgu/bladder/model_weights/resnet18_conv1x1_maxpool_bestAUC.pth
+Epoch 2, Phase test, Loss=0.4721, Acc=0.8060, AUC=0.7831, TPR=0.6075, TNR=0.8402, J=0.4477, MCC=0.3793, ConfusionMatrix=
+[[1814  345]
+ [ 146  226]]
+Epoch complete in 28.79
+
+Epoch 3, Phase train, Loss=0.4305, Acc=0.8127, AUC=0.8828, TPR=0.7865, TNR=0.8381, J=0.6247, MCC=0.6258, ConfusionMatrix=
+[[3107  600]
+ [ 767 2826]]
+Epoch 3, Phase val, Loss=0.4761, Acc=0.8314, AUC=0.8066, TPR=0.6082, TNR=0.8712, J=0.4795, MCC=0.4286, ConfusionMatrix=
+[[1894  280]
+ [ 152  236]]
+New Best AUC=0.8066. The model weights are stored in /DATA/data/yjgu/bladder/model_weights/resnet18_conv1x1_maxpool_bestAUC.pth
+Epoch 3, Phase test, Loss=0.5030, Acc=0.8281, AUC=0.7797, TPR=0.6317, TNR=0.8620, J=0.4937, MCC=0.4287, ConfusionMatrix=
+[[1861  298]
+ [ 137  235]]
+Epoch complete in 28.83
+
+Epoch 4, Phase train, Loss=0.4064, Acc=0.8232, AUC=0.8965, TPR=0.8046, TNR=0.8416, J=0.6461, MCC=0.6466, ConfusionMatrix=
+[[3086  581]
+ [ 710 2923]]
+Epoch 4, Phase val, Loss=0.4816, Acc=0.8216, AUC=0.8063, TPR=0.6701, TNR=0.8487, J=0.5188, MCC=0.4420, ConfusionMatrix=
+[[1845  329]
+ [ 128  260]]
+Epoch 4, Phase test, Loss=0.4908, Acc=0.8143, AUC=0.7959, TPR=0.6505, TNR=0.8425, J=0.4931, MCC=0.4149, ConfusionMatrix=
+[[1819  340]
+ [ 130  242]]
+Epoch complete in 27.95
+
+Epoch 5, Phase train, Loss=0.3987, Acc=0.8232, AUC=0.9009, TPR=0.8034, TNR=0.8417, J=0.6451, MCC=0.6459, ConfusionMatrix=
+[[3169  596]
+ [ 695 2840]]
+Epoch 5, Phase val, Loss=0.4533, Acc=0.8146, AUC=0.8080, TPR=0.6057, TNR=0.8519, J=0.4576, MCC=0.3977, ConfusionMatrix=
+[[1852  322]
+ [ 153  235]]
+New Best AUC=0.8080. The model weights are stored in /DATA/data/yjgu/bladder/model_weights/resnet18_conv1x1_maxpool_bestAUC.pth
+Epoch 5, Phase test, Loss=0.4818, Acc=0.8242, AUC=0.7901, TPR=0.6613, TNR=0.8522, J=0.5135, MCC=0.4367, ConfusionMatrix=
+[[1840  319]
+ [ 126  246]]
+Epoch complete in 29.37
+
+Epoch 6, Phase train, Loss=0.3689, Acc=0.8419, AUC=0.9158, TPR=0.8335, TNR=0.8503, J=0.6838, MCC=0.6839, ConfusionMatrix=
+[[3107  547]
+ [ 607 3039]]
+Epoch 6, Phase val, Loss=0.4498, Acc=0.8197, AUC=0.7989, TPR=0.6186, TNR=0.8556, J=0.4741, MCC=0.4129, ConfusionMatrix=
+[[1860  314]
+ [ 148  240]]
+Epoch 6, Phase test, Loss=0.4692, Acc=0.8151, AUC=0.7917, TPR=0.6478, TNR=0.8439, J=0.4918, MCC=0.4148, ConfusionMatrix=
+[[1822  337]
+ [ 131  241]]
+Epoch complete in 28.17
+
+Epoch 7, Phase train, Loss=0.3512, Acc=0.8507, AUC=0.9236, TPR=0.8554, TNR=0.8458, J=0.7012, MCC=0.7013, ConfusionMatrix=
+[[3045  555]
+ [ 535 3165]]
+Epoch 7, Phase val, Loss=0.5159, Acc=0.7845, AUC=0.7942, TPR=0.6598, TNR=0.8068, J=0.4666, MCC=0.3795, ConfusionMatrix=
+[[1754  420]
+ [ 132  256]]
+Epoch 7, Phase test, Loss=0.5120, Acc=0.7847, AUC=0.7931, TPR=0.6855, TNR=0.8018, J=0.4872, MCC=0.3887, ConfusionMatrix=
+[[1731  428]
+ [ 117  255]]
+Epoch complete in 27.72
+
+Epoch 8, Phase train, Loss=0.3242, Acc=0.8712, AUC=0.9350, TPR=0.8649, TNR=0.8774, J=0.7423, MCC=0.7424, ConfusionMatrix=
+[[3243  453]
+ [ 487 3117]]
+Epoch 8, Phase val, Loss=0.5678, Acc=0.7721, AUC=0.7855, TPR=0.6649, TNR=0.7912, J=0.4561, MCC=0.3650, ConfusionMatrix=
+[[1720  454]
+ [ 130  258]]
+Epoch 8, Phase test, Loss=0.5593, Acc=0.7748, AUC=0.7751, TPR=0.6371, TNR=0.7985, J=0.4356, MCC=0.3493, ConfusionMatrix=
+[[1724  435]
+ [ 135  237]]
+Epoch complete in 28.59
+
+Epoch 9, Phase train, Loss=0.3146, Acc=0.8755, AUC=0.9389, TPR=0.8812, TNR=0.8696, J=0.7509, MCC=0.7510, ConfusionMatrix=
+[[3149  472]
+ [ 437 3242]]
+Epoch 9, Phase val, Loss=0.4440, Acc=0.8368, AUC=0.7820, TPR=0.5670, TNR=0.8850, J=0.4520, MCC=0.4187, ConfusionMatrix=
+[[1924  250]
+ [ 168  220]]
+Epoch 9, Phase test, Loss=0.4430, Acc=0.8400, AUC=0.7728, TPR=0.5511, TNR=0.8898, J=0.4408, MCC=0.4108, ConfusionMatrix=
+[[1921  238]
+ [ 167  205]]
+Epoch complete in 27.71
+
+Epoch 10, Phase train, Loss=0.3079, Acc=0.8733, AUC=0.9415, TPR=0.8779, TNR=0.8687, J=0.7466, MCC=0.7466, ConfusionMatrix=
+[[3162  478]
+ [ 447 3213]]
+Epoch 10, Phase val, Loss=0.5342, Acc=0.7818, AUC=0.7529, TPR=0.5490, TNR=0.8234, J=0.3723, MCC=0.3157, ConfusionMatrix=
+[[1790  384]
+ [ 175  213]]
+Epoch 10, Phase test, Loss=0.5465, Acc=0.7839, AUC=0.7699, TPR=0.5780, TNR=0.8194, J=0.3973, MCC=0.3299, ConfusionMatrix=
+[[1769  390]
+ [ 157  215]]
+Epoch complete in 28.08
+
+Epoch 11, Phase train, Loss=0.2814, Acc=0.8875, AUC=0.9511, TPR=0.8977, TNR=0.8772, J=0.7749, MCC=0.7751, ConfusionMatrix=
+[[3171  444]
+ [ 377 3308]]
+Epoch 11, Phase val, Loss=0.4736, Acc=0.8205, AUC=0.7913, TPR=0.5644, TNR=0.8661, J=0.4306, MCC=0.3866, ConfusionMatrix=
+[[1883  291]
+ [ 169  219]]
+Epoch 11, Phase test, Loss=0.4619, Acc=0.8368, AUC=0.7898, TPR=0.5887, TNR=0.8796, J=0.4683, MCC=0.4233, ConfusionMatrix=
+[[1899  260]
+ [ 153  219]]
+Epoch complete in 29.74
+
+Epoch 12, Phase train, Loss=0.2542, Acc=0.8988, AUC=0.9599, TPR=0.9073, TNR=0.8904, J=0.7977, MCC=0.7977, ConfusionMatrix=
+[[3273  403]
+ [ 336 3288]]
+Epoch 12, Phase val, Loss=0.4727, Acc=0.8240, AUC=0.7882, TPR=0.4536, TNR=0.8901, J=0.3437, MCC=0.3344, ConfusionMatrix=
+[[1935  239]
+ [ 212  176]]
+Epoch 12, Phase test, Loss=0.4834, Acc=0.8475, AUC=0.7641, TPR=0.5108, TNR=0.9055, J=0.4163, MCC=0.4066, ConfusionMatrix=
+[[1955  204]
+ [ 182  190]]
+Epoch complete in 28.49
+
+Epoch 13, Phase train, Loss=0.2539, Acc=0.9016, AUC=0.9601, TPR=0.9119, TNR=0.8912, J=0.8031, MCC=0.8034, ConfusionMatrix=
+[[3220  393]
+ [ 325 3362]]
+Epoch 13, Phase val, Loss=0.5036, Acc=0.8380, AUC=0.8042, TPR=0.5851, TNR=0.8832, J=0.4682, MCC=0.4298, ConfusionMatrix=
+[[1920  254]
+ [ 161  227]]
+Epoch 13, Phase test, Loss=0.5280, Acc=0.8451, AUC=0.7883, TPR=0.6344, TNR=0.8814, J=0.5158, MCC=0.4615, ConfusionMatrix=
+[[1903  256]
+ [ 136  236]]
+Epoch complete in 29.76
+
+Early Stop!
+Training complete in 6m 42s
+Start training densenet121_conv1x1_avgpool
+Epoch 0, Phase train, Loss=0.5534, Acc=0.7129, AUC=0.7918, TPR=0.7050, TNR=0.7207, J=0.4257, MCC=0.4258, ConfusionMatrix=
+[[2640 1023]
+ [1073 2564]]

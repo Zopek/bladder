@@ -28,7 +28,7 @@ weight_decay = 1e-4
 class_num = 7
 batch_size = 32
 
-total_epochs = 1000
+total_epochs = 100
 
 height = 160
 width = 160
@@ -212,8 +212,8 @@ train_epoch = train_size / batch_size
 test_epoch = test_size / batch_size
 
 ###======================== Model ===================================###
-x = tf.placeholder(tf.float32, shape=[None, height, width, 5])
-batch_images = tf.reshape(x, [-1, height, width, 5])
+x = tf.placeholder(tf.float32, shape=[None, height, width, 6])
+batch_images = tf.reshape(x, [-1, height, width, 6])
 
 label = tf.placeholder(tf.float32, shape=[None, class_num])
 
@@ -283,7 +283,7 @@ with tf.Session() as sess:
 
         for step in range(train_epoch):
             # start_time = time.time()
-            phase = 'test'
+            phase = 'train'
             batch_x, batch_y = read_data.next_batch(train_set, batch_size, height, width, step, class_num, phase)
             # batch_x, batch_y = mnist.train.next_batch(batch_size)
             # print('load time is : ', time.time() - start_time)

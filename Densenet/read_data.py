@@ -43,22 +43,61 @@ def process_one_channel(image, bladder_bbox, height, width):
 	new_image = resize(new_image, (height, width))
 	return new_image
 
-def read_cancer_bbox(filename, image_height, image_width, label):
-	with open(filename, 'r') as f:
-		cancer_bboxes = pickle.load(f)
+def read_cancer_bboxes(root_dir, filename, sizes):
 
-	bboxes_image = np.zeros((image_height, image_width))
-	grid_x, grid_y = np.mgrid[0:image_height, 0:image_width]
-	for box in cancer_bboxes:
+    dwi_size = int(sizes[0])
+    for i in range(len(filename)):
 
-		x = box[0]
-		y = box[1]
-		r = box[2]
-		dist_from_center = np.sqrt((grid_x - x) ** 2 + (grid_y - y) ** 2)
-		mask = dist_from_center < r
-		bboxes_image = np.logical_or(bboxes_image, mask)
+        if filename[i].split('/')[1] == 'dwi_ax_0':
+            origin_size = int(sizes[0])
+        elif filename[i].split('/')[1] == 't2w_ax_0':
+            origin_size = int(sizes[1])
+        else:
+            assert filename[i].split('/')[1] == 't2wfs_ax_0'
+            origin_size = int(sizes[2])
 
-	return bboxes_image.astype(np.int)
+        file_path = os.path.join(root_dir, filename[i])
+        with open(file_path, 'r') as f:
+            cancer_bboxes = pickle.load(f)
+
+        '''
+        if cancer_bboxes == []:
+            continue
+        '''
+
+        grid_x, grid_y = np.mgrid[0:origin_size, 0:origin_size]
+        bboxes_image = np.zeros((origin_size, origin_size))
+        for box in cancer_bboxes:
+            
+            x = box[0]
+            y = box[1]
+            r = box[2]
+            dist_from_center = np.sqrt((grid_x - x) ** 2 + (grid_y - y) ** 2)
+            mask = dist_from_center < r
+            bboxes_image = np.logical_or(bboxes_image, mask)
+
+        if filename[i].split('/')[1] != 'dwi_ax_0':
+            resize_factor = (np.array((dwi_size, dwi_size)).astype(np.float) + 1e-3) / bboxes_image.shape  # +1e-3 to suppress warning of scipy.ndimage.zoom
+            bboxes_image = scipy.ndimage.interpolation.zoom(bboxes_image.astype(np.float), resize_factor, order=0)
+
+        if i == 0:
+            bboxes = bboxes_image
+        else:
+            bboxes = np.logical_or(bboxes, bboxes_image)
+        # bboxes.append(bboxes_image)
+
+    '''
+    if len (bboxes) == 0:
+        bbox = np.zeros((dwi_size, dwi_size))
+    elif len(bboxes) == 1:
+        bbox = bboxes[0]
+    elif len(bboxes) == 2:
+        bbox = np.logical_and(bboxes[0], bboxes[1])
+    elif len(bboxes) == 3:
+        bbox = np.logical_and(np.logical_and(bboxes[0], bboxes[1]), bboxes[2])
+    '''
+
+    return bboxes.astype(np.int)
 
 def shuffle(dataset):
 	random.shuffle(dataset)
@@ -77,6 +116,8 @@ def next_batch(dataset, batch_size, height, width, epoch, class_num, phase):
 		ind = batch_size * epoch + i
 		image = np.load(os.path.join(data_path, dataset[ind][0]))
 		bladder_bbox = read_bladder_bbox(os.path.join(data_path, dataset[ind][1]))
+		cancer_bboxes = dataset[ind][3:6]
+		sizes = dataset[ind][6:9]
 		label = int(dataset[ind][9])
 
 		image_ADC = process_one_channel(image[0], bladder_bbox, height, width)
@@ -85,7 +126,11 @@ def next_batch(dataset, batch_size, height, width, epoch, class_num, phase):
 		image_t2w = process_one_channel(image[3], bladder_bbox, height, width)
 		image_t2wfs = process_one_channel(image[4], bladder_bbox, height, width)
 
-		processed_image = np.stack([image_ADC, image_b0, image_b1000, image_t2w, image_t2wfs], axis=2)
+		cancer_bboxes_image = read_cancer_bboxes('/DATA/data/yjgu/bladder/bladder_labels/', cancer_bboxes, sizes)
+		cancer_bboxes_image = cancer_bboxes_image[bladder_bbox]
+		cancer_bboxes_image = resize(cancer_bboxes_image, (height, width))
+
+		processed_image = np.stack([image_ADC, image_b0, image_b1000, image_t2w, image_t2wfs, cancer_bboxes_image], axis=2)
 		# processed_image.shape = [height, width, 3]
 		processed_label = np.zeros((class_num), np.int32)
 		processed_label[label] = 1

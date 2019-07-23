@@ -7,7 +7,7 @@ import numpy as np
 import config as cfg 
 import vgg16
 
-class Train(Object):
+class Train(object):
 	def __init__(self, network, data):
 		self.data = data
 		self.vgg16 = network
@@ -23,7 +23,7 @@ class Train(Object):
 		#self.saver = tf.train.Saver(sel.variable_to_restore)
 
 		self.global_step = tf.Variable(0, trainable = False)
-		self.learning_rate = tf.train.piecewise_constant(self.global_step, [self.total_ephoch], [self.initial_learning_rate])
+		self.learning_rate = tf.train.piecewise_constant(self.global_step, [self.total_ephoch], [self.initial_learning_rate, self.initial_learning_rate])
 		self.optimizer = tf.train.AdamOptimizer(learning_rate = self.learning_rate).minimize(self.vgg16.cost, global_step = self.global_step)
 
 		#self.saver.restore(self.sess, ?)
@@ -33,10 +33,10 @@ class Train(Object):
 		with tf.Session() as sess:
 			sess.run(init)
 
-			for epoch in self.total_ephoch:
+			for epoch in range(self.total_ephoch):
 
 				self.data.shuffle()
-				for iteration in self.train_iteration + 1:
+				for iteration in range(self.train_iteration + 1):
 
 					images, labels = self.data.next_batch('train')
 					feed_dict_train = {self.vgg16.images: images, self.vgg16.labels: labels}
@@ -46,7 +46,7 @@ class Train(Object):
 						train_accuracy = sess.run(self.vgg16.accuracy, feed_dict = feed_dict_train)
 						print('Iter:', iteration, 'Loss:', train_loss, 'Train Accuracy:', train_accuracy)
 
-				for iteration in self.test_iteration:
+				for iteration in range(self.test_iteration):
 
 					images, labels = self.data.next_batch('test')
 					feed_dict_test = {self.vgg16.images: images, self.vgg16.labels: labels}

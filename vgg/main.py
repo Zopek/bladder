@@ -12,8 +12,8 @@ def main():
 	network = vgg16.vgg16()
 	data_loader = preprocess.data_preprocess()
 
-	train = train.Train(network, data_loader)
-	train.train()
+	train_network = train.Train(network, data_loader)
+	train_network.train()
 
 if __name__ == '__main__':
 	main()

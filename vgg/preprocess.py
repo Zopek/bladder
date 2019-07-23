@@ -6,6 +6,7 @@ import numpy as np
 import os
 import csv
 import json
+import pickle
 import scipy.ndimage
 import random
 
@@ -37,6 +38,7 @@ class data_preprocess(object):
 		return reader
 
 	def shuffle(self):
+		self.ind = 0
 		random.shuffle(self.train_set)
 
 	def size(self, phase = 'train'):
@@ -50,7 +52,7 @@ class data_preprocess(object):
 	def next_batch(self, phase = 'train'):
 		if phase == 'train':
 			data_set = self.train_set
-		elif phase = 'test':
+		elif phase == 'test':
 			data_set = self.test_set
 
 		images = []
@@ -64,8 +66,8 @@ class data_preprocess(object):
 			#				'D1867766/dwi_ax_0/stack0_b0guess/box_label_3.txt']
 			image = np.load(os.path.join(self.data_path, data_set[self.ind][0]))
 			bladder_bbox = self.read_bladder_bbox(os.path.join(self.data_path, data_set[self.ind][1]))
-			cancer_bboxes = dataset[self.ind][3:6]
-			sizes = dataset[self.ind][6:9]
+			cancer_bboxes = data_set[self.ind][3:6]
+			sizes = data_set[self.ind][6:9]
 			label = int(data_set[self.ind][9])
 
 			if self.ind == self.size(phase) - 1:
@@ -132,7 +134,7 @@ class data_preprocess(object):
 		std = max(np.std(image), 1e-9)
 		new_image = image[bladder_bbox]
 		new_image = (new_image - mean) / std
-		new_image = resize(new_image)
+		new_image = self.resize(new_image)
 
 		return new_image
 
